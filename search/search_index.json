@@ -62,7 +62,7 @@
         }, 
         {
             "location": "/get-started/testnet/", 
-            "text": "Tomochain Testnet Information:\n\n\nChain ID: 89\nRPC: https://testnet.tomochain.com\n\n\n\n\nTestnet status: \nhttps://stats-testnet.tomochain.com\n\n\nBlock Explorer for the testnet: \nhttps://explorer-testnet.tomochain.com\n\n\nYou can get free $TOMO in our testnet at this site (faucet): \nhttps://faucet.tomochain.com\n\n\nSee this blog post to know how to connect the testnet via Metamask: \nmetamask-connect-tomochain", 
+            "text": "Tomochain Testnet Information:\n\n\nChain ID: 89\nRPC: https://testnet.tomochain.com\nWebsocket: wss://testnet.tomochain.com/ws\n\n\n\n\nTestnet status: \nhttps://stats-testnet.tomochain.com\n\n\nBlock Explorer for the testnet: \nhttps://explorer-testnet.tomochain.com\n\n\nYou can get free $TOMO in our testnet at this site (faucet): \nhttps://faucet.tomochain.com\n\n\nSee this blog post to know how to connect the testnet via Metamask: \nmetamask-connect-tomochain", 
             "title": "Testnet"
         }, 
         {
