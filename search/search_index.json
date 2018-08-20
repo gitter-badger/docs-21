@@ -397,12 +397,12 @@
         }, 
         {
             "location": "/links/", 
-            "text": "Links\n\n\n\n\n\n\nMain website - \nhttps://tomochain.com\n\n\n\n\n\n\nTestwallet - \nhttps://wallet.tomocoin.io\n\n\n\n\n\n\nWhitepaper - \nhttps://tomochain.com/docs/technical-whitepaper--1.0.pdf\n\n\n\n\n\n\nNetwork stats - \nhttps://stats.testnet.tomochain.com\n\n\n\n\n\n\nExplorer - \nhttps://scan.testnet.tomochain.com\n\n\n\n\n\n\nGovernance DApp - \nhttps://master.testnet.tomochain.com\n\n\n\n\n\n\nGithub - \nhttps://github.com/tomochain", 
+            "text": "Links\n\n\n\n\n\n\nMain website - \nhttps://tomochain.com\n\n\n\n\n\n\nWhitepaper - \nhttps://tomochain.com/docs/technical-whitepaper--1.0.pdf\n\n\n\n\n\n\nNetwork stats - \nhttps://stats.testnet.tomochain.com\n\n\n\n\n\n\nExplorer - \nhttps://scan.testnet.tomochain.com\n\n\n\n\n\n\nGovernance DApp - \nhttps://master.testnet.tomochain.com\n\n\n\n\n\n\nFaucet - \nhttps://faucet.testnet.tomochain.com\n\n\n\n\n\n\nGithub - \nhttps://github.com/tomochain", 
             "title": "Important Links"
         }, 
         {
             "location": "/links/#links", 
-            "text": "Main website -  https://tomochain.com    Testwallet -  https://wallet.tomocoin.io    Whitepaper -  https://tomochain.com/docs/technical-whitepaper--1.0.pdf    Network stats -  https://stats.testnet.tomochain.com    Explorer -  https://scan.testnet.tomochain.com    Governance DApp -  https://master.testnet.tomochain.com    Github -  https://github.com/tomochain", 
+            "text": "Main website -  https://tomochain.com    Whitepaper -  https://tomochain.com/docs/technical-whitepaper--1.0.pdf    Network stats -  https://stats.testnet.tomochain.com    Explorer -  https://scan.testnet.tomochain.com    Governance DApp -  https://master.testnet.tomochain.com    Faucet -  https://faucet.testnet.tomochain.com    Github -  https://github.com/tomochain", 
             "title": "Links"
         }, 
         {
