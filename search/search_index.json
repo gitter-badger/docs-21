@@ -12,68 +12,48 @@
         }, 
         {
             "location": "/get-started/started/", 
-            "text": "Getting started\n\n\nBeginners guide\n\n\nGetting TOMO\n\n\nBrowse to https://wallet.tomocoin.io\n\n\nClick on + CREATE NEW WALLET button.\n\n\nUsing the explorer\n\n\nhttps://explorer-testnet.tomochain.com/\n\n\nHow To Vote\n\n\nhttps://validators-testnet.tomochain.com/\n\n\nDapps\n\n\nDeploy dapp tutorial \nhttps://github.com/nuuneoi/tomochain-dapp-example\n\n\nUsing Testnet\n\n\nRunning a Node\n\n\ntodo\n\n\nRunning a Masternode\n\n\ntodo", 
-            "title": "Beginer's Guide"
+            "text": "Voter's Guide\n\n\nTo vote for masternodes, you can follow the steps below.\n\n\nCreate a wallet\n\n\nYou can use Myetherwallet, Metamask to create your wallet.\n\n\nGet TOMO\n\n\nYou access our Faucet page: \nhttps://faucet.testnet.tomochain.com\n\n\nEnter your address to the inbox. Click \nI'm not a robot\n.\n\n\nFinally, click \nREQUEST 15 TOMO\n. Wait around 4 seconds. You will see a successful message. It means you have 15 TOMO in your wallet\n\n\nHow To Vote\n\n\nAfter having TOMO. You can access \nTomomaster\n to start voting for the masternodes.\n\n\nTomomaster supports Metamask. In case, you don't want to use Metamask, you can access Account Page to login your wallet by using Private Key or MNEMONIC (see image below).\n\n\nIf you use Metamask, you need to connect Mettamask with our testnet by following this tutorial \nconnect-metamask-to-tomochain-testnet\n\n\n\n\nAfter login, you can vote for the masternodes by clicking \nVote\n button.\n\n\n\n\nYou have to vote at least 10 TOMO for per masternode. After clicking submit, your TOMO will be sent to the smart contract and locked there.\n\n\nReward\n\n\nYou will receive the reward automatically after voting for the masternode every epoch (30 minutes).\n\n\nHow to Unvote\n\n\nIf you do not want to support the masternode you voted. You can unvote it by clicking \nUnvote\n button.\n\n\nAfter unvoting, your TOMO is still locked in the smart contract around 2 days.\n\n\nHow to Withdraw\n\n\nTo withdraw after unvoting, you need to wait until your TOMO be released from the smart contract. Then you can click \nwithdraw\n button in Account Page to receive back your TOMO.", 
+            "title": "Voter's Guide"
         }, 
         {
-            "location": "/get-started/started/#getting-started", 
-            "text": "", 
-            "title": "Getting started"
+            "location": "/get-started/started/#voters-guide", 
+            "text": "To vote for masternodes, you can follow the steps below.", 
+            "title": "Voter's Guide"
         }, 
         {
-            "location": "/get-started/started/#beginners-guide", 
-            "text": "", 
-            "title": "Beginners guide"
+            "location": "/get-started/started/#create-a-wallet", 
+            "text": "You can use Myetherwallet, Metamask to create your wallet.", 
+            "title": "Create a wallet"
         }, 
         {
-            "location": "/get-started/started/#getting-tomo", 
-            "text": "Browse to https://wallet.tomocoin.io  Click on + CREATE NEW WALLET button.", 
-            "title": "Getting TOMO"
-        }, 
-        {
-            "location": "/get-started/started/#using-the-explorer", 
-            "text": "https://explorer-testnet.tomochain.com/", 
-            "title": "Using the explorer"
+            "location": "/get-started/started/#get-tomo", 
+            "text": "You access our Faucet page:  https://faucet.testnet.tomochain.com  Enter your address to the inbox. Click  I'm not a robot .  Finally, click  REQUEST 15 TOMO . Wait around 4 seconds. You will see a successful message. It means you have 15 TOMO in your wallet", 
+            "title": "Get TOMO"
         }, 
         {
             "location": "/get-started/started/#how-to-vote", 
-            "text": "https://validators-testnet.tomochain.com/", 
+            "text": "After having TOMO. You can access  Tomomaster  to start voting for the masternodes.  Tomomaster supports Metamask. In case, you don't want to use Metamask, you can access Account Page to login your wallet by using Private Key or MNEMONIC (see image below).  If you use Metamask, you need to connect Mettamask with our testnet by following this tutorial  connect-metamask-to-tomochain-testnet   After login, you can vote for the masternodes by clicking  Vote  button.   You have to vote at least 10 TOMO for per masternode. After clicking submit, your TOMO will be sent to the smart contract and locked there.", 
             "title": "How To Vote"
         }, 
         {
-            "location": "/get-started/started/#dapps", 
-            "text": "Deploy dapp tutorial \nhttps://github.com/nuuneoi/tomochain-dapp-example", 
-            "title": "Dapps"
+            "location": "/get-started/started/#reward", 
+            "text": "You will receive the reward automatically after voting for the masternode every epoch (30 minutes).", 
+            "title": "Reward"
         }, 
         {
-            "location": "/get-started/started/#using-testnet", 
-            "text": "", 
-            "title": "Using Testnet"
+            "location": "/get-started/started/#how-to-unvote", 
+            "text": "If you do not want to support the masternode you voted. You can unvote it by clicking  Unvote  button.  After unvoting, your TOMO is still locked in the smart contract around 2 days.", 
+            "title": "How to Unvote"
         }, 
         {
-            "location": "/get-started/started/#running-a-node", 
-            "text": "todo", 
-            "title": "Running a Node"
-        }, 
-        {
-            "location": "/get-started/started/#running-a-masternode", 
-            "text": "todo", 
-            "title": "Running a Masternode"
+            "location": "/get-started/started/#how-to-withdraw", 
+            "text": "To withdraw after unvoting, you need to wait until your TOMO be released from the smart contract. Then you can click  withdraw  button in Account Page to receive back your TOMO.", 
+            "title": "How to Withdraw"
         }, 
         {
             "location": "/get-started/testnet/", 
-            "text": "Tomochain Testnet Information:\n\n\nChain ID: 89\nRPC: https://testnet.tomochain.com\nWebsocket: wss://testnet.tomochain.com/ws\n\n\n\n\nTestnet status: \nhttps://stats-testnet.tomochain.com\n\n\nBlock Explorer for the testnet: \nhttps://explorer-testnet.tomochain.com\n\n\nYou can get free $TOMO in our testnet at this site (faucet): \nhttps://faucet.tomochain.com\n\n\nSee this blog post to know how to connect the testnet via Metamask: \nmetamask-connect-tomochain", 
+            "text": "Tomochain Testnet Information:\n\n\nChain ID: 89\nRPC: https://testnet.tomochain.com\nWebsocket: wss://testnet.tomochain.com/ws\n\n\n\n\nTestnet status: \nhttps://stats.testnet.tomochain.com\n\n\nBlock Explorer for the testnet: \nhttps://scan.testnet.tomochain.com\n\n\nYou can get free $TOMO in our testnet at this site (faucet): \nhttps://faucet.testnet.tomochain.com\n\n\nSee this blog post to know how to connect the testnet via Metamask: \nmetamask-connect-tomochain", 
             "title": "Testnet"
-        }, 
-        {
-            "location": "/get-started/run-node/", 
-            "text": "To run a node to join Tomochain Testnet network, please see the tutorials at \ntomochain-testnet", 
-            "title": "Running a Node"
-        }, 
-        {
-            "location": "/get-started/private-network/", 
-            "text": "To create your own network, please see the tutorials at \ntomochain-testnet", 
-            "title": "Create your own network"
         }, 
         {
             "location": "/whitepaper/", 
