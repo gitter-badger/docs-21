@@ -12,42 +12,42 @@
         }, 
         {
             "location": "/get-started/started/", 
-            "text": "Voter's Guide\n\n\nTo vote for masternodes, you can follow the steps below.\n\n\nCreate a wallet\n\n\nYou can use Myetherwallet, Metamask to create your wallet.\n\n\nGet TOMO\n\n\nYou access our Faucet page: \nhttps://faucet.testnet.tomochain.com\n\n\nEnter your address to the inbox. Click \nI'm not a robot\n.\n\n\nFinally, click \nREQUEST 15 TOMO\n. Wait around 4 seconds. You will see a successful message. It means you have 15 TOMO in your wallet\n\n\nHow To Vote\n\n\nAfter having TOMO. You can access \nTomomaster\n to start voting for the masternodes.\n\n\nTomomaster supports Metamask. In case, you don't want to use Metamask, you can access Account Page to login your wallet by using Private Key or MNEMONIC (see image below).\n\n\nIf you use Metamask, you need to connect Mettamask with our testnet by following this tutorial \nconnect-metamask-to-tomochain-testnet\n\n\n\n\nAfter login, you can vote for the masternodes by clicking \nVote\n button.\n\n\n\n\nYou have to vote at least 10 TOMO for per masternode. After clicking submit, your TOMO will be sent to the smart contract and locked there.\n\n\nReward\n\n\nYou will receive the reward automatically after voting for the masternode every epoch (30 minutes).\n\n\nHow to Unvote\n\n\nIf you do not want to support the masternode you voted. You can unvote it by clicking \nUnvote\n button.\n\n\nAfter unvoting, your TOMO is still locked in the smart contract around 2 days.\n\n\nHow to Withdraw\n\n\nTo withdraw after unvoting, you need to wait until your TOMO be released from the smart contract. Then you can click \nwithdraw\n button in Account Page to receive back your TOMO.", 
+            "text": "Voter's Guide\n\n\nThis page will introduce you to masternode voting in the Tomochain ecosystem.\n\n\nCreate a wallet\n\n\nIn order to vote, you first need to create a wallet in our testnet.\n\n\nYou can create it really easily with Myetherwallet or Metamask. The url of our testnet is \ntestnet.tomochain.com\n\n\nYou can follow \nthis tutorial\n for Metamask.\n\n\nGet some TOMO\n\n\nWe have a service called \"Faucet\" who allows you to get TOMO fifteen at a time.\nYou can access it at this address: \nhttps://faucet.testnet.tomochain.com\n\n\nEnter your wallet address in the field and tick the \nI'm not a robot\n box.\n\n\nFinally, click \nREQUEST 15 TOMO\n. Wait for some second for the transaction to be confirmed.\n\n\nYou will receive a success confirmation message and the amount of TOMO in your wallet should be updated.\n\n\nHow To Vote\n\n\nNow that you have some TOMO. You can access our governance dapp, \nTomomaster\n, to start voting for masternodes.\n\n\nTomomaster natively supports Metamask. You can also access your account page (the vertical three dots on the top right) to fill in your wallet Private Key or MNEMONIC (see image below).\n\n\nIf you use Metamask, you need to connect Mettamask with our testnet. See the \"Create a wallet\" section.\n\n\n![Setting](/figures/setting page.jpg)\n\n\nOnce configured, you can vote for masternodes by clicking on the \nVote\n button.\n\n\n\n\nAt least 10 TOMO are required per vote. After clicking submit, your TOMO will be sent to the smart contract and locked there.\n\n\nReward\n\n\nEvery epoch (~30 minutes), you will automatically receive rewards for each masternode you voted for.\n\n\nHow to Unvote\n\n\nIf you do not want to support anymore a masternode you voted for. You can unvote by clicking the \nUnvote\n button on the masternode's page.\n\n\nAfter unvoting, your TOMO are still locked in the smart contract for around 2 days.\n\n\nHow to Withdraw\n\n\nTo withdraw after unvoting, you need to wait until your TOMO are released from the smart contract. Then you can click the \nwithdraw\n button in your account page (the vertical three dots on the top right) to receive back your TOMO.", 
             "title": "Voter's Guide"
         }, 
         {
             "location": "/get-started/started/#voters-guide", 
-            "text": "To vote for masternodes, you can follow the steps below.", 
+            "text": "This page will introduce you to masternode voting in the Tomochain ecosystem.", 
             "title": "Voter's Guide"
         }, 
         {
             "location": "/get-started/started/#create-a-wallet", 
-            "text": "You can use Myetherwallet, Metamask to create your wallet.", 
+            "text": "In order to vote, you first need to create a wallet in our testnet.  You can create it really easily with Myetherwallet or Metamask. The url of our testnet is  testnet.tomochain.com  You can follow  this tutorial  for Metamask.", 
             "title": "Create a wallet"
         }, 
         {
-            "location": "/get-started/started/#get-tomo", 
-            "text": "You access our Faucet page:  https://faucet.testnet.tomochain.com  Enter your address to the inbox. Click  I'm not a robot .  Finally, click  REQUEST 15 TOMO . Wait around 4 seconds. You will see a successful message. It means you have 15 TOMO in your wallet", 
-            "title": "Get TOMO"
+            "location": "/get-started/started/#get-some-tomo", 
+            "text": "We have a service called \"Faucet\" who allows you to get TOMO fifteen at a time.\nYou can access it at this address:  https://faucet.testnet.tomochain.com  Enter your wallet address in the field and tick the  I'm not a robot  box.  Finally, click  REQUEST 15 TOMO . Wait for some second for the transaction to be confirmed.  You will receive a success confirmation message and the amount of TOMO in your wallet should be updated.", 
+            "title": "Get some TOMO"
         }, 
         {
             "location": "/get-started/started/#how-to-vote", 
-            "text": "After having TOMO. You can access  Tomomaster  to start voting for the masternodes.  Tomomaster supports Metamask. In case, you don't want to use Metamask, you can access Account Page to login your wallet by using Private Key or MNEMONIC (see image below).  If you use Metamask, you need to connect Mettamask with our testnet by following this tutorial  connect-metamask-to-tomochain-testnet   After login, you can vote for the masternodes by clicking  Vote  button.   You have to vote at least 10 TOMO for per masternode. After clicking submit, your TOMO will be sent to the smart contract and locked there.", 
+            "text": "Now that you have some TOMO. You can access our governance dapp,  Tomomaster , to start voting for masternodes.  Tomomaster natively supports Metamask. You can also access your account page (the vertical three dots on the top right) to fill in your wallet Private Key or MNEMONIC (see image below).  If you use Metamask, you need to connect Mettamask with our testnet. See the \"Create a wallet\" section.  ![Setting](/figures/setting page.jpg)  Once configured, you can vote for masternodes by clicking on the  Vote  button.   At least 10 TOMO are required per vote. After clicking submit, your TOMO will be sent to the smart contract and locked there.", 
             "title": "How To Vote"
         }, 
         {
             "location": "/get-started/started/#reward", 
-            "text": "You will receive the reward automatically after voting for the masternode every epoch (30 minutes).", 
+            "text": "Every epoch (~30 minutes), you will automatically receive rewards for each masternode you voted for.", 
             "title": "Reward"
         }, 
         {
             "location": "/get-started/started/#how-to-unvote", 
-            "text": "If you do not want to support the masternode you voted. You can unvote it by clicking  Unvote  button.  After unvoting, your TOMO is still locked in the smart contract around 2 days.", 
+            "text": "If you do not want to support anymore a masternode you voted for. You can unvote by clicking the  Unvote  button on the masternode's page.  After unvoting, your TOMO are still locked in the smart contract for around 2 days.", 
             "title": "How to Unvote"
         }, 
         {
             "location": "/get-started/started/#how-to-withdraw", 
-            "text": "To withdraw after unvoting, you need to wait until your TOMO be released from the smart contract. Then you can click  withdraw  button in Account Page to receive back your TOMO.", 
+            "text": "To withdraw after unvoting, you need to wait until your TOMO are released from the smart contract. Then you can click the  withdraw  button in your account page (the vertical three dots on the top right) to receive back your TOMO.", 
             "title": "How to Withdraw"
         }, 
         {
