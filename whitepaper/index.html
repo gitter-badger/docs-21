@@ -361,8 +361,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#coin-holders-masternodes" title="Coin Holders, Masternodes" class="md-nav__link">
-    Coin Holders, Masternodes
+  <a href="#coin-holders-masternodes" title="Token holders, Masternodes" class="md-nav__link">
+    Token holders, Masternodes
   </a>
   
 </li>
@@ -795,8 +795,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#coin-holders-masternodes" title="Coin Holders, Masternodes" class="md-nav__link">
-    Coin Holders, Masternodes
+  <a href="#coin-holders-masternodes" title="Token holders, Masternodes" class="md-nav__link">
+    Token holders, Masternodes
   </a>
   
 </li>
@@ -1129,30 +1129,30 @@ validation process as well as finality checkpoint of the protocol. </li>
 <p>The <strong>Tomochain</strong> blockchain is produced and maintained by a set of <em>masternodes</em> in a
 consistent manner through the <strong>Tomochain consensus</strong> protocol as shown in Fig.
 <a href="#fig:architecture">architecture</a>. These masternodes are full nodes that hold $TOMO.
-For a coin-holder to become a masternode, two requirements must be
+For a token holder to become a masternode, two requirements must be
 satisfied:</p>
 <ul>
 <li>
-<p>The coin-holder must hold at least a minimum required amount of coin
+<p>The token holder must hold at least a minimum required amount of tokens
     (see next section for more details).</p>
 </li>
 <li>
-<p>The coin-holder must be one of the most voted masternode candidates
-    in the system. The voting by coin-holders is credited through a
-    <em>Voting DApp</em> that allows coin-holders to <em>send $TOMO through the
+<p>The token holder must be one of the most voted masternode candidates
+    in the system. The voting by token holders is credited through a
+    <em>Voting DApp</em> that allows token holders to <em>send $TOMO through the
     smart contract mechanism</em>.</p>
 </li>
 </ul>
 <p>In addition to the voting system which is an improvement over the
-current Bitcoin and Ethereum blockchain, also provides a new technique,
+current Bitcoin and Ethereum blockchain, TomoChain also provides a new technique,
 namely <em>Double Validation</em> complemented with a <em>Randomization</em>
 mechanism. This new technique significantly decreases the probability of
 having invalid blocks in the blockchain. These enhancements and the
 components of <strong>Tomochain</strong> are step-by-step detailed in the followings.</p>
 <p><img alt="architecture" id="fig:architecture" src="../figures/architecture.jpg" /></p>
 <h2 id="Sec:StakeVoting">Stakeholders &amp; Voting<a class="headerlink" href="#Sec:StakeVoting" title="Permanent link">&para;</a></h2>
-<h3 class="unnumbered" id="coin-holders-masternodes">Coin Holders, Masternodes<a class="headerlink" href="#coin-holders-masternodes" title="Permanent link">&para;</a></h3>
-<p>Coin-holder is as simple as its name: users who join the network, who
+<h3 class="unnumbered" id="coin-holders-masternodes">Token holders, Masternodes<a class="headerlink" href="#coin-holders-masternodes" title="Permanent link">&para;</a></h3>
+<p>Token holder is as simple as its name: users who join the network, who
 own and transfer $TOMO. Masternodes are full-nodes which maintain a
 copy of the blockchain, produce blocks and keep the chain consistent. It
 is worth noting that, <strong>Tomochain</strong> does not have miners as in the current
@@ -1161,23 +1161,23 @@ Only masternodes can produce and validate blocks.</p>
 <p>Masternodes are selected via a voting system. The first requirement of
 being masternodes is to deposit 50 000 $TOMO to the Voting Smart
 Contract. Then, these depositors are listed as masternode candidates in
-the Voting DApp, which allows coin-holders to vote for them by sending
+the Voting DApp, which allows token holders to vote for them by sending
 $TOMO to the smart contract.</p>
 <p>Masternodes which work hard in the system to create and verify blocks
-will be incentivized with $TOMO. Furthermore, coin holders who vote for
+will be incentivized with $TOMO. Furthermore, token holders who vote for
 these incentivized masternodes will also receive $TOMO in proportion to
 the amount of $TOMO they have invested via ballots. <strong>Tomochain</strong> engineers take
 responsibility to design that fair, explicit, automated and accountable
 reward mechanism.</p>
 <p>The list of masternode candidates is dynamically sorted based on voted
-coins. The performance of the masternodes will be tracked and reported
-back to the coin holders in terms of three main metrics: CPU/Memory
+tokens. The performance of the masternodes will be tracked and reported
+back to the token holders in terms of three main metrics: CPU/Memory
 charts which ensure the workload of the masternodes, the number of
 signed blocks which indicates their work performance and the last signed
-block which figures out their last activity. Coin-holders, at any time,
+block which figures out their last activity. Token holders, at any time,
 can unvote masternodes, who have low performance, and give their votes
-to the other masternodes who have beter performance. Coin-holders have
-incentives to do that because their voted coins are seen as investment
+to the other masternodes who have beter performance. Token holders have
+incentives to do that because their voted tokens are seen as investment
 to their supported masternodes, thus they should choose a voting
 strategy in order to maximize their profit from the investment.</p>
 <p>This simple trick keeps the system healthy since masternodes always have
@@ -1192,29 +1192,29 @@ a masternode is demoted (by not remaining in the top ninety-nine voted
 masternodes) or intentionally quits the masternode candidates
 list/masternode committee, the deposit will have been locked for a
 month.</p>
-<p>Coin-holders can vote at any time, by any number of votes (which is
+<p>Token holders can vote at any time, by any number of votes (which is
 actually counted by the amount of $TOMO they bet on some masternode
 candidates). They can use masternode’s performance statistics in the
 governance <em>Voting DApp</em> as reference information to give votes. The set
 of masternodes is dynamically sorted by the amount of $TOMO and counted
 up to ninety-nine, upon reception of votes.</p>
 <h3 class="unnumbered" id="reward-mechanism">Reward Mechanism<a class="headerlink" href="#reward-mechanism" title="Permanent link">&para;</a></h3>
-<p>For each iteration of 990 blocks (called epoch), a checkpoint block is
+<p>For each iteration of 900 blocks (called epoch), a checkpoint block is
 created, which implements only reward works. The masternode, who takes
-turn in the circular and sequential order to create block, has to scan
+turn in the circular and sequential order to create blocks, has to scan
 all of the created blocks in the epoch and count number of signatures.
-The reward mechanism is designed following the policy as follow: the
+The reward mechanism is designed following the policy as follows: the
 higher number of signatures one masternode has made, the more reward he
 earns. For instance, within an epoch, masternode A who has sealed twice
 the blocks than masternode B earns double amount of $TOMO than
 masternode B does.</p>
-<p>Furthermore, there is also a reward sharing ratio among coin-holders and
-masternode who has been elected supported by the coin-holders. For
+<p>Furthermore, there is also a reward sharing ratio among token holders and
+masternode who has been elected supported by the token holders. For
 example, within an epoch, one masternode receives <script type="math/tex">X</script> $TOMO. Ten
 percent of <script type="math/tex">X</script> is sent to the masternode’s address. Eighty percent of
-<script type="math/tex">X</script> is shared in proportion to the amount of coins deposited and voted
-by the masternode and coin-holders, respectively. The last ten percent
-of <script type="math/tex">X</script> credits to the <strong>Tomochain</strong> foundation. Coin-holders who unvote before the
+<script type="math/tex">X</script> is shared in proportion to the amount of tokens deposited and voted
+by the masternode and token holders, respectively. The last ten percent
+of <script type="math/tex">X</script> credits to the <strong>Tomochain</strong> foundation. oken holders who unvote before the
 checkpoint block will not receive any shared reward.</p>
 <h2 id="Sec:ProtocolOverview">Tomochain Consensus Protocol<a class="headerlink" href="#Sec:ProtocolOverview" title="Permanent link">&para;</a></h2>
 <h3 class="unnumbered" id="double-validation-process">Double Validation Process<a class="headerlink" href="#double-validation-process" title="Permanent link">&para;</a></h3>
@@ -1414,7 +1414,7 @@ block: once masternodes make such maximum-odds bets, in any blockchain
 where that block or state is not present, the masternodes lose their
 entire deposit"</em> (see <a href="#finality">here</a>.</p>
 <p><strong>Tomochain</strong> keeps that standardization in the design so that one block is considered
-as irreversible if it collects up to <script type="math/tex">\frac{3}{4}</script> signatures of all
+as irreversible if it collects at least <script type="math/tex">\frac{3}{4}</script> signatures of all
 masternodes committee. The time-line of blockchain creation process,
 checking finality and mark the block as immutable is described as in
 Figure: <a href="#fig:ChainMaking">ChainMaking</a> below.</p>
@@ -1428,7 +1428,7 @@ like  <a href="#Cardano2017">Cardano</a> and  <a href="#Pass2017">here</a> and
 recall the following concepts and definitions that were presented
 in <a href="#Cardano2017">Cardano</a> and adapt them to the context of Tomochain.</p>
 <h3 class="unnumbered" id="time-slots-epoch">Time, Slots, Epoch<a class="headerlink" href="#time-slots-epoch" title="Permanent link">&para;</a></h3>
-<p>As previously described, ideally, each epoch is divided into 990 block time, that is called block slot.
+<p>As previously described, ideally, each epoch is divided into 900 block time, that is called block slot.
 Only one block can be created in a slot. We assume that there is a roughly synchronized clock that allows for masternodes to learn the current slot. This simplification will effectively permit masternodes to execute the signing and validation process of the PoSV consensus, where each masternode must collectively create a block to the current slot. For more simplification, each slot <script type="math/tex">sl_r</script> is accessed by an integer <script type="math/tex">r \in \{1, 2, ...990\}</script>, and suppose that the real time window that corresponds to each slot has the following properties, which are similar to what are specified in <a href="#Cardano2017">Cardano</a>.</p>
 <ol>
 <li>
@@ -1508,10 +1508,10 @@ censorship attack might happen. For example, these masternodes refuse
 valid blocks or simply become inactive. In this case, chain is stuck.</p>
 <p>In fact, masternodes are paid for their effort of correctly working so
 that the chain is actively updated in a consistent manner. More
-importantly, becoming masternode means a certain amount of coins is
+importantly, becoming masternode means a certain amount of tokens is
 locked, 50 000 $TOMO in particular. As a result, in order to control
 more than<script type="math/tex">\frac{3}{4}</script> masternodes, attackers must hold a considerable
-amount of $TOMO and gain huge support from coin-holders. And because of
+amount of $TOMO and gain huge support from token holders. And because of
 this, the attackers do not have incentives to do any malicious action to
 harm the chain.</p>
 <p>However, in worst case, <strong>Tomochain</strong> has to do a soft fork in order to reduce number
@@ -1648,8 +1648,8 @@ In particular, first, we apply with voting and <strong>Double Validation</strong
 create, verify and vote for blocks smoothly and efficiently. Whenever
 potentials of fork branches are detected, we employ the idea in PoW to
 select the longest branch with the most votes and discard the other
-branches. With this hybrid approach, does not only increase the
-performance and security of blockchain, but also reduce the fork
+branches. This hybrid approach not only increases the
+performance and security of blockchain, but also reduces the fork
 situation in an efficient and practical manner.</p>
 <p>Recently, there are several consensus protocol research works that are
 closely related to <strong>Tomochain</strong> such as <a href="#EOS">EOS</a> and Ouroboros of
