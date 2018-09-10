@@ -96,7 +96,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#applying-your-node-as-masternode" tabindex="1" class="md-skip">
+      <a href="#get-tomo" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -313,12 +313,51 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
-      
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Apply as masternode
+      </label>
     
     <a href="./" title="Apply as masternode" class="md-nav__link md-nav__link--active">
       Apply as masternode
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#get-tomo" title="Get TOMO" class="md-nav__link">
+    Get TOMO
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#applying-as-a-masternode" title="Applying as a Masternode" class="md-nav__link">
+    Applying as a Masternode
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resigning-as-a-candidate" title="Resigning as a Candidate" class="md-nav__link">
+    Resigning as a Candidate
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -546,8 +585,36 @@
 <nav class="md-nav md-nav--secondary">
   
   
-    
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#get-tomo" title="Get TOMO" class="md-nav__link">
+    Get TOMO
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#applying-as-a-masternode" title="Applying as a Masternode" class="md-nav__link">
+    Applying as a Masternode
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resigning-as-a-candidate" title="Resigning as a Candidate" class="md-nav__link">
+    Resigning as a Candidate
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
   
 </nav>
                   </div>
@@ -562,17 +629,27 @@
                   <a href="https://github.com/tomochain/docs/edit/master/docs/get-started/apply-masternode.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="applying-your-node-as-masternode">Applying your node as masternode<a class="headerlink" href="#applying-your-node-as-masternode" title="Permanent link">&para;</a></h1>
-<p>Once your full node is up and running, you need to apply it to make him eligible as a masternode.</p>
+                  <h1>Apply as masternode</h1>
+                
+                <p>Once your full node is up and running, you need to apply it to make him eligible as a masternode.</p>
+<h2 id="get-tomo">Get TOMO<a class="headerlink" href="#get-tomo" title="Permanent link">&para;</a></h2>
 <p>As 50'000 TOMO are required for applying, the first thing to do is to fill out he following <a href="https://docs.google.com/forms/d/183UxYRET9I183L7lFHCredjaTd9oj4kmf4UdH7eLNNs">form</a>.</p>
 <p>Our team will then review your demand and send you the required funds.</p>
-<p>You can now apply by going on the <a href="https://master.testnet.tomochain.com">TomoMaster</a> page.
-On the top right corner, click on "Become a Candidate".</p>
+<h2 id="applying-as-a-masternode">Applying as a Masternode<a class="headerlink" href="#applying-as-a-masternode" title="Permanent link">&para;</a></h2>
+<p>You can now apply by going on the <a href="https://master.testnet.tomochain.com">TomoMaster</a> page, login your wallet (that contains 50'000 TOMO).</p>
+<p>On the top right corner, click on "Become a Candidate".</p>
 <p>Enter the amount of TOMO you want to deposit (minimum 50'000).</p>
 <p>Enter your coinbase address. This is the public key of the account that your masternode is using. If your are running your node with <code>tmn</code>, you can simply run <code>tmn inspect</code> to get it.</p>
 <p>Confirm with apply and proceed to make the payement.</p>
 <p>Your full node will now be listed on TomoMaster. People can view its details and vote for it.</p>
 <p>If your node is in the top 150 most voted nodes, it will be promoted as a masternode and will start producing blocks at the next epoch.</p>
+<h2 id="resigning-as-a-candidate">Resigning as a Candidate<a class="headerlink" href="#resigning-as-a-candidate" title="Permanent link">&para;</a></h2>
+<p>In case, you want to stop your node. You need to access <a href="https://master.testnet.tomochain.com">TomoMaster</a>, go to your candidate detail page, and click <code>Resign</code> button.</p>
+<p>After resigning successfully, you can access the node and run command:</p>
+<pre><code>tmn remove --confirm
+</code></pre>
+
+<p>Then your node will be stopped.</p>
                 
                   
                 
