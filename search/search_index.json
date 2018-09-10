@@ -132,7 +132,7 @@
         }, 
         {
             "location": "/get-started/apply-masternode/", 
-            "text": "Once your full node is up and running, you need to apply it to make him eligible as a masternode.\n\n\nGet TOMO\n\n\nAs 50'000 TOMO are required for applying, the first thing to do is to fill out he following \nform\n.\n\n\nOur team will then review your demand and send you the required funds.\n\n\nApplying as a Masternode\n\n\nYou can now apply by going on the \nTomoMaster\n page, login your wallet (that contains 50'000 TOMO).\n\n\nOn the top right corner, click on \"Become a Candidate\".\n\n\nEnter the amount of TOMO you want to deposit (minimum 50'000).\n\n\nEnter your coinbase address. This is the public key of the account that your masternode is using. If your are running your node with \ntmn\n, you can simply run \ntmn inspect\n to get it.\n\n\nConfirm with apply and proceed to make the payement.\n\n\nYour full node will now be listed on TomoMaster. People can view its details and vote for it.\n\n\nIf your node is in the top 150 most voted nodes, it will be promoted as a masternode and will start producing blocks at the next epoch.\n\n\nResigning as a Candidate\n\n\nIn case, you want to stop your node. You need to access \nTomoMaster\n, go to your candidate detail page, and click \nResign\n button.\n\n\nAfter resigning successfully, you can access the node and run command:\n\n\ntmn remove --confirm\n\n\n\n\nThen your node will be stopped.", 
+            "text": "Once your full node is up and running, you need to apply it to make him eligible as a masternode.\n\n\nGet TOMO\n\n\nAs 50'000 TOMO are required for applying, the first thing to do is to fill out he following \nform\n.\n\n\nOur team will then review your demand and send you the required funds.\n\n\nApplying as masternode\n\n\nYou can now apply by going on the \nTomoMaster\n page, login your wallet (that contains 50'000 TOMO).\n\n\nOn the top right corner, click on \"Become a Candidate\".\n\n\nEnter the amount of TOMO you want to deposit (minimum 50'000).\n\n\nEnter your coinbase address. This is the public key of the account that your masternode is using. If your are running your node with \ntmn\n, you can simply run \ntmn inspect\n to get it.\n\n\nConfirm with apply and proceed to make the payement.\n\n\nYour full node will now be listed on TomoMaster. People can view its details and vote for it.\n\n\nIf your node is in the top 150 most voted nodes, it will be promoted as a masternode and will start producing blocks at the next epoch.\n\n\nResigning as masternode\n\n\nIn case, you want to stop your node. You need to access \nTomoMaster\n, go to your candidate detail page, and click \nResign\n button.\n\n\nAfter resigning successfully, you can access the node and run command:\n\n\ntmn remove --confirm\n\n\n\n\nThen your node will be stopped.", 
             "title": "Apply as masternode"
         }, 
         {
@@ -141,14 +141,14 @@
             "title": "Get TOMO"
         }, 
         {
-            "location": "/get-started/apply-masternode/#applying-as-a-masternode", 
+            "location": "/get-started/apply-masternode/#applying-as-masternode", 
             "text": "You can now apply by going on the  TomoMaster  page, login your wallet (that contains 50'000 TOMO).  On the top right corner, click on \"Become a Candidate\".  Enter the amount of TOMO you want to deposit (minimum 50'000).  Enter your coinbase address. This is the public key of the account that your masternode is using. If your are running your node with  tmn , you can simply run  tmn inspect  to get it.  Confirm with apply and proceed to make the payement.  Your full node will now be listed on TomoMaster. People can view its details and vote for it.  If your node is in the top 150 most voted nodes, it will be promoted as a masternode and will start producing blocks at the next epoch.", 
-            "title": "Applying as a Masternode"
+            "title": "Applying as masternode"
         }, 
         {
-            "location": "/get-started/apply-masternode/#resigning-as-a-candidate", 
+            "location": "/get-started/apply-masternode/#resigning-as-masternode", 
             "text": "In case, you want to stop your node. You need to access  TomoMaster , go to your candidate detail page, and click  Resign  button.  After resigning successfully, you can access the node and run command:  tmn remove --confirm  Then your node will be stopped.", 
-            "title": "Resigning as a Candidate"
+            "title": "Resigning as masternode"
         }, 
         {
             "location": "/wallets/metamask/", 
