@@ -16,7 +16,12 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.tomochain.com/get-started/masternode/</loc>
+     <loc>https://docs.tomochain.com/get-started/run-node/</loc>
+     <lastmod>2018-09-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.tomochain.com/get-started/apply-masternode/</loc>
      <lastmod>2018-09-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
