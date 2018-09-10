@@ -810,7 +810,7 @@
 <ul>
 <li>Must be facing internet directly (no NAT, public IP)</li>
 <li>Must have at least 8 cores</li>
-<li>Must have at least 32Go of RAM</li>
+<li>Must have at least 32G of RAM</li>
 <li>Must use a PaaS ("cloud") provider of your choice (AWS, Digital Ocean, Google Cloud, etc.)</li>
 <li>Storage must be SSD</li>
 </ul>
@@ -846,9 +846,9 @@ You can name it to reflect your identity, company name, etc.</p>
 <p><code>--net</code>: The netowrk your full node will connect to.
 You can chose here to connect it to the TomoChain Testnet or Mainnet (once launched).</p>
 <p><code>--pkey</code>: The private key of the account that your full node will use.
-A tomochain full node use an account to be uniquely identified and to receive rewards.</p>
+A tomochain full node use an account to be uniquely identified and to receive transaction fee.</p>
 <p>It could look like this:</p>
-<pre><code>tmn start --name companyabcd --net testnet --pkey b9d3b1d2d65f928db8124eec2374ca542c283d81b35152e7b538bc7a2219d116
+<pre><code>tmn start --name companyabcd --net testnet --pkey [YOUR_COINBASE_PRIVATE_KEY]
 </code></pre>
 
 <p>Once started, you should see your node on the <a href="https://stats.testnet.tomochain.com">stats page</a>!</p>
