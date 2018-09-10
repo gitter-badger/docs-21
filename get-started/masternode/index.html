@@ -11,7 +11,7 @@
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
       
-        <link rel="canonical" href="https://docs.tomochain.com/wallets/tomowallet/">
+        <link rel="canonical" href="https://docs.tomochain.com/get-started/masternode/">
       
       
       
@@ -38,7 +38,7 @@
     
     
       
-        <title>TomoWallet - Tomochain Documentation</title>
+        <title>Running a masternode - Tomochain Documentation</title>
       
     
     
@@ -96,7 +96,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#create-a-new-wallet" tabindex="1" class="md-skip">
+      <a href="#running-and-applying-a-masternode" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -122,7 +122,7 @@
                 Tomochain Documentation
               </span>
               <span class="md-header-nav__topic">
-                TomoWallet
+                Running a masternode
               </span>
             
           
@@ -249,10 +249,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       Get started
@@ -270,7 +272,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../get-started/started/" title="Voter's Guide" class="md-nav__link">
+    <a href="../started/" title="Voter's Guide" class="md-nav__link">
       Voter's Guide
     </a>
   </li>
@@ -282,7 +284,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../get-started/testnet/" title="Testnet" class="md-nav__link">
+    <a href="../testnet/" title="Testnet" class="md-nav__link">
       Testnet
     </a>
   </li>
@@ -292,11 +294,152 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../get-started/masternode/" title="Running a masternode" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Running a masternode
+      </label>
+    
+    <a href="./" title="Running a masternode" class="md-nav__link md-nav__link--active">
       Running a masternode
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-hardware-notice" title="General hardware notice" class="md-nav__link">
+    General hardware notice
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tmn" title="tmn" class="md-nav__link">
+    tmn
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites" title="Prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installation" title="Installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update" title="Update" class="md-nav__link">
+    Update
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#first-start" title="First start" class="md-nav__link">
+    First start
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usage" title="Usage" class="md-nav__link">
+    Usage
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker-images" title="Docker images" class="md-nav__link">
+    Docker images
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites_1" title="Prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usage_1" title="Usage" class="md-nav__link">
+    Usage
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#running-the-tomochain-image" title="Running the tomochain image" class="md-nav__link">
+    Running the tomochain image
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#running-the-telegraf-image" title="Running the telegraf image" class="md-nav__link">
+    Running the telegraf image
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binaries" title="Binaries" class="md-nav__link">
+    Binaries
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#applying-as-a-masternode-in-testnet" title="Applying as a masternode in Testnet" class="md-nav__link">
+    Applying as a masternode in Testnet
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -309,12 +452,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
     
     <label class="md-nav__link" for="nav-3">
       Wallets
@@ -332,7 +473,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../metamask/" title="Metamask" class="md-nav__link">
+    <a href="../../wallets/metamask/" title="Metamask" class="md-nav__link">
       Metamask
     </a>
   </li>
@@ -342,73 +483,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        TomoWallet
-      </label>
-    
-    <a href="./" title="TomoWallet" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../wallets/tomowallet/" title="TomoWallet" class="md-nav__link">
       TomoWallet
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#create-a-new-wallet" title="Create a new wallet" class="md-nav__link">
-    Create a new wallet
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#earn-tomo" title="Earn TOMO" class="md-nav__link">
-    Earn TOMO
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#transfer-tomo" title="Transfer TOMO" class="md-nav__link">
-    Transfer TOMO
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#delete-a-wallet" title="Delete a wallet" class="md-nav__link">
-    Delete a wallet
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#import-your-wallet" title="Import your wallet" class="md-nav__link">
-    Import your wallet
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -587,41 +666,118 @@
 <nav class="md-nav md-nav--secondary">
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#create-a-new-wallet" title="Create a new wallet" class="md-nav__link">
-    Create a new wallet
+  <a href="#general-hardware-notice" title="General hardware notice" class="md-nav__link">
+    General hardware notice
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#earn-tomo" title="Earn TOMO" class="md-nav__link">
-    Earn TOMO
+  <a href="#tmn" title="tmn" class="md-nav__link">
+    tmn
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites" title="Prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installation" title="Installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update" title="Update" class="md-nav__link">
+    Update
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#first-start" title="First start" class="md-nav__link">
+    First start
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usage" title="Usage" class="md-nav__link">
+    Usage
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker-images" title="Docker images" class="md-nav__link">
+    Docker images
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites_1" title="Prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usage_1" title="Usage" class="md-nav__link">
+    Usage
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#running-the-tomochain-image" title="Running the tomochain image" class="md-nav__link">
+    Running the tomochain image
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#running-the-telegraf-image" title="Running the telegraf image" class="md-nav__link">
+    Running the telegraf image
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binaries" title="Binaries" class="md-nav__link">
+    Binaries
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#transfer-tomo" title="Transfer TOMO" class="md-nav__link">
-    Transfer TOMO
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#delete-a-wallet" title="Delete a wallet" class="md-nav__link">
-    Delete a wallet
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#import-your-wallet" title="Import your wallet" class="md-nav__link">
-    Import your wallet
+  <a href="#applying-as-a-masternode-in-testnet" title="Applying as a masternode in Testnet" class="md-nav__link">
+    Applying as a masternode in Testnet
   </a>
   
 </li>
@@ -642,30 +798,130 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/tomochain/docs/edit/master/docs/wallets/tomowallet.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/tomochain/docs/edit/master/docs/get-started/masternode.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                  <h1>TomoWallet</h1>
-                
-                <p>Now, TomoWallet is available at <a href="https://wallet.testnet.tomochain.com">https://wallet.testnet.tomochain.com</a>. You can try to create a wallet, get some TOMO on the testnet or transfer/receive TOMO.</p>
-<p><em>Note: For now, TomoWallet only works on Tomochain Testnet. So all TOMO you have in TomoWallet is only for testing purpose.</em></p>
-<h2 id="create-a-new-wallet">Create a new wallet<a class="headerlink" href="#create-a-new-wallet" title="Permanent link">&para;</a></h2>
-<p>On the first page, click <code>CREATE NEW WALLET</code> button. TomoWallet will automatically create a new wallet and show up the address, qr code and the balance in your home page.</p>
-<p><img alt="tomowallet1" src="../../figures/tomowallet1.jpg" /></p>
-<h2 id="earn-tomo">Earn TOMO<a class="headerlink" href="#earn-tomo" title="Permanent link">&para;</a></h2>
-<p>On the homepage, you click <code>Earn TOMO to test</code> on the bottom left corner. After that, you can click <code>REQUEST</code> button and wait a couple of seconds to get some TOMO.</p>
-<p><img alt="tomowallet2" src="../../figures/tomowallet2.jpg" /></p>
-<h2 id="transfer-tomo">Transfer TOMO<a class="headerlink" href="#transfer-tomo" title="Permanent link">&para;</a></h2>
-<p>On left menu, click <code>Tranfer</code> to go to <code>Tranfer TOMO</code> page.</p>
-<p><img alt="tomowallet3" src="../../figures/tomowallet3.jpg" /></p>
-<p>You just need to enter a valid recipient address and amount TOMO you want to send and click <code>SEND</code>.</p>
-<p>After few seconds, you transaction will be presented at <code>Transactions</code> page as the below:</p>
-<p><img alt="tomowallet4" src="../../figures/tomowallet4.jpg" /></p>
-<h2 id="delete-a-wallet">Delete a wallet<a class="headerlink" href="#delete-a-wallet" title="Permanent link">&para;</a></h2>
-<p>In case, you want to access other wallets, you need to delete current wallet. Make sure you already backup <code>Private Key</code> and <code>Recovery Phrases</code>. So you can import your wallet again.</p>
-<p>To delete your wallet, just go to <code>details</code> page, and click <code>DELETE THIS WALLET</code> button.</p>
-<h2 id="import-your-wallet">Import your wallet<a class="headerlink" href="#import-your-wallet" title="Permanent link">&para;</a></h2>
-<p>On the first page, clock <code>IMPORT YOUR WALLET</code>. After that, enter our <code>Private Key</code> or <code>Recovery Phrases</code>, click <code>IMPORT</code> button.</p>
+                <h1 id="running-and-applying-a-masternode">Running and applying a masternode<a class="headerlink" href="#running-and-applying-a-masternode" title="Permanent link">&para;</a></h1>
+<p>With the recent release of Tomochain Testnet 2.0 with our PoSV consensus, you might be interested in creating a Tomochain full node and applying it to be a masternode.</p>
+<p>To run a full node and meet the requirements to apply on our governance DApp, you have to run two services:
+- The <a href="https://github.com/tomochain/tomochain">Tomochain client</a>, our Tomochain implementation written in <em>Go</em>.
+- <a href="https://github.com/influxdata/telegraf">Telegraf</a>, an agent to collect performance metrics of your full node.</p>
+<p>We provide different way of running a node to assure flexibility in integration depending on your current infrastructure.</p>
+<h2 id="general-hardware-notice">General hardware notice<a class="headerlink" href="#general-hardware-notice" title="Permanent link">&para;</a></h2>
+<p>Our team extensively tested performances and came up with those minimal requirements for any Tomochain masternode host:</p>
+<ul>
+<li>Should be facing internet directly (no NAT, public IP)</li>
+<li>Should have at least 8 core, 16 threads at 2.5Ghz <!-- TODO: edit values --></li>
+<li>Should have at least 8 Go of RAM</li>
+<li>Storage should be of SSD type</li>
+</ul>
+<p>The full node will serve on port <code>30303</code> for p2p communication with other nodes, <code>8545</code> for RPC api and <code>8546</code> for websocket api.
+You may need to edit your firewall configuration accordingly.</p>
+<h2 id="tmn">tmn<a class="headerlink" href="#tmn" title="Permanent link">&para;</a></h2>
+<p>We made a simple command line interface called <a href="https://github.com/tomochain/masternode">tmn</a> to easily and quickly start a Tomochain masternode.
+It takes care of starting the necessary docker containers with the proper settings for you.
+It will really suits you if you don't already have a big infrastructure running.
+Spin up a machine in your favorite cloud and get your masternode running in a few minutes!</p>
+<h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h3>
+<p>To use tmn, you should meet this requirements in addition of the hardware ones:</p>
+<ul>
+<li><a href="https://docs.docker.com/install/">Docker CE</a></li>
+<li><a href="https://docs.python-guide.org/starting/install3/linux/">Python</a> &gt;= 3.6</li>
+</ul>
+<h3 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h3>
+<p>Simply install it from pip.</p>
+<pre><code>pip3 install --user tmn
+</code></pre>
+
+<h3 id="update">Update<a class="headerlink" href="#update" title="Permanent link">&para;</a></h3>
+<p>Update it from pip.</p>
+<pre><code>pip3 install -U tmn
+</code></pre>
+
+<h3 id="first-start">First start<a class="headerlink" href="#first-start" title="Permanent link">&para;</a></h3>
+<p>When you first start your full node with tmn, you need to give some informations.</p>
+<p><code>--name</code>: The name of your full node.
+It should be formatted as a slug string.
+Slug format authorize all letters and numbers, dashes ("-") and underscore ("_").
+You can name it to reflect your identity, company name, etc.</p>
+<p><code>--net</code>: The netowrk your full node will connect to.
+You can chose here to connect it to the Tomochain Testnet or Mainnet (once launched).</p>
+<p><code>--pkey</code>: The private key of the account that your full node will use.
+A tomochain full node use an account to be uniquely identified and to receive rewards.</p>
+<p>It could look like this:</p>
+<pre><code>tmn start --name companyabcd --net testnet --pkey b9d3b1d2d65f928db8124eec2374ca542c283d81b35152e7b538bc7a2219d116
+</code></pre>
+
+<p>Once started, you should see your node on the <a href="https://stats.testnet.tomochain.com">stats page</a>!</p>
+<p>Note: it can take up to 15 minutes to properly end the first synchronization.</p>
+<h3 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h3>
+<p>You can now interact with it via the other commands:</p>
+<p><code>stop</code>: Stop your full node.</p>
+<p><code>start</code>: Start your full node if it was stopped.</p>
+<p><code>status</code>: The current status of your full node.</p>
+<p><code>inspect</code>: Display the details related to your full node.
+Useful for applying your full node as a masternode.</p>
+<p><code>remove</code>: Completely remove your masternode, unique identity and data.</p>
+<h2 id="docker-images">Docker images<a class="headerlink" href="#docker-images" title="Permanent link">&para;</a></h2>
+<h3 id="prerequisites_1">Prerequisites<a class="headerlink" href="#prerequisites_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://docs.docker.com/install/">Docker CE</a></li>
+</ul>
+<h3 id="usage_1">Usage<a class="headerlink" href="#usage_1" title="Permanent link">&para;</a></h3>
+<p>You can use our docker images with vanilla docker, docker-compose or any orchestrator of your choice.
+You will need to run our two docker images: <code>tomochain/tomochain</code> and <code>tomochain/telegraf</code>.</p>
+<h3 id="running-the-tomochain-image">Running the tomochain image<a class="headerlink" href="#running-the-tomochain-image" title="Permanent link">&para;</a></h3>
+<p>To run a full node, you need to provide those configurations through environment variables:</p>
+<p><code>IDENTITY</code>: The unique identity of your full node.
+The identity should be of this format: <code>$NAME_$IDENTIFIER</code>.
+Please use letters, numbers, dashes ("-") and underscore ("_") only in the name.
+The identifier should be a 6 character hexadecimal string.
+You can generate one easily with the command <code>uuidgen | cut -c -6</code></p>
+<p><code>PRIVATE_KEY</code>: The private key of the account that your full node will use.
+A tomochain full node use an account to be uniquely identified and to receive rewards.</p>
+<p><code>BOOTNODES</code>: The bootnodes specific to the network you want to connect to.
+They should be separated by commas without any whitespace. <!-- TODO: bootnode address? --></p>
+<p><code>NETSTATS_HOST</code>: The netstats endpoint specific to the network you want to connect to.
+For Testnet, it's <code>stats.testnet.tomochain.com</code>.</p>
+<p><code>NETSTATS_PORT</code>: The port of the netstats endpoint.
+For Testnet, it's <code>443</code>. <!-- TODO: remove? and set 443 as default --></p>
+<p>It is also strongly recommended to use a named volume to store the blockchain data.
+This way, the node will not need to re-download the whole blockchain on every restart.
+The blockchain data is located in <code>/tomochain/data</code>.</p>
+<p>Here is an example of running a tomochain container configured to use our Testnet:</p>
+<pre><code>docker run -p 30303:30303 -v chaindata:/tomochain/data -e IDENTITY=companyabcd_30D37E -e BOOTNODES=enode://4d3c2cc0ce7135c1778c6f1cfda623ab44b4b6db55289543d48ecfde7d7111fd420c42174a9f2fea511a04cf6eac4ec69b4456bfaaae0e5bd236107d3172b013@52.221.28.223:30301,enode://298780104303fcdb37a84c5702ebd9ec660971629f68a933fd91f7350c54eea0e294b0857f1fd2e8dba2869fcc36b83e6de553c386cf4ff26f19672955d9f312@13.251.101.216:30301,enode://46dba3a8721c589bede3c134d755eb1a38ae7c5a4c69249b8317c55adc8d46a369f98b06514ecec4b4ff150712085176818d18f59a9e6311a52dbe68cff5b2ae@13.250.94.232:30301 -e NETSTATS_HOST=stats.testnet.tomochain.com -e NETSTATS_PORT=443 tomochain/tomochain:latest
+</code></pre>
+
+<h3 id="running-the-telegraf-image">Running the telegraf image<a class="headerlink" href="#running-the-telegraf-image" title="Permanent link">&para;</a></h3>
+<p>You also need to run the telegraf image to provide the required metrics to our governance system.</p>
+<p>You need to provide these configuration through environment variable:</p>
+<p><code>METRICS_ENDPOINT</code>: The metrics endpoint specific to the network you want to connect to.
+For testnet, it's <code>https://metrics.testnet.tomochain.com</code>.</p>
+<p>You will also need to mount different repertories of your host system to let telegraf get the metrics:</p>
+<p><code>/var/run/docker.sock</code> -&gt; <code>/var/run/docker.sock</code></p>
+<p><code>/sys</code> -&gt; <code>/rootfs/sys</code></p>
+<p><code>/proc</code> -&gt; <code>/rootfs/proc</code></p>
+<p><code>/etc</code> -&gt; <code>/rootfs/etc</code></p>
+<p>Here is an example of running a telegraf container configured to use our Testnet: <!-- TODO update images! infra-telegraf:devnet -> telegraf:latest --></p>
+<pre><code>docker run -v /var/run/docker.sock:/var/run/docker.sock:ro -v /sys:/rootfs/sys:ro -v /proc:/rootfs/proc:ro -v /etc:/rootfs/etc:ro -e METRICS_ENDPOINT=https://metrics.testnet.tomochain.com tomochain/telegraf:latest
+</code></pre>
+
+<h2 id="binaries">Binaries<a class="headerlink" href="#binaries" title="Permanent link">&para;</a></h2>
+<p>You can also run directly the tomo binary.
+Please refer to the tomochain repository <a href="https://github.com/tomochain/tomochain">readme</a>.
+You will also need to run the telegraf docker image.
+You can refer to the "Docker images" part of this document to that effect.</p>
+<h2 id="applying-as-a-masternode-in-testnet">Applying as a masternode in Testnet<a class="headerlink" href="#applying-as-a-masternode-in-testnet" title="Permanent link">&para;</a></h2>
+<p>Once your full node is up and running, you need to apply it to make him eligible as a masternode.</p>
+<p>As 50'000 TOMO are required for applying, the first thing to do is to fill out he following <a href="https://docs.google.com/forms/d/183UxYRET9I183L7lFHCredjaTd9oj4kmf4UdH7eLNNs">form</a>.</p>
+<p>Our team will then review your demand and send you the required funds.</p>
+<p>You can now apply by going on the <a href="https://master.testnet.tomochain.com">TomoMaster</a> page.
+On the top right corner, click on "Become a Candidate".</p>
+<p>Enter the amount of TOMO you want to deposit (minimum 50'000).</p>
+<p>Enter your coinbase address. This is the public key of the account that your masternode is using. If your are running your node with <code>tmn</code>, you can simply run <code>tmn inspect</code> to get it.</p>
+<p>Confirm with apply and proceed to make the payement.</p>
+<p>Your full node will now be listed on TomoMaster. People can view its details and vote for it.</p>
+<p>If your node is in the top 150 most voted nodes, it will be promoted as a masternode and will start producing blocks at the next epoch.</p>
                 
                   
                 
@@ -686,7 +942,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../metamask/" title="Metamask" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../testnet/" title="Testnet" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -695,19 +951,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Metamask
+                Testnet
               </span>
             </div>
           </a>
         
         
-          <a href="../../whitepaper/" title="Technical Whitepaper" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../wallets/metamask/" title="Metamask" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Technical Whitepaper
+                Metamask
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
