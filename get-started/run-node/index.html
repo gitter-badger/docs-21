@@ -918,7 +918,8 @@ For testnet, it's <code>https://metrics.testnet.tomochain.com</code>.</p>
     -v /var/run/docker.sock:/var/run/docker.sock:ro \
     -v /sys:/rootfs/sys:ro -v /proc:/rootfs/proc:ro \
     -v /etc:/rootfs/etc:ro \
-    -e METRICS_ENDPOINT=https://metrics.testnet.tomochain.com tomochain/telegraf:latest
+    -e METRICS_ENDPOINT=https://metrics.testnet.tomochain.com \
+    tomochain/telegraf:latest
 </code></pre>
 
 <h2 id="binaries">Binaries<a class="headerlink" href="#binaries" title="Permanent link">&para;</a></h2>
