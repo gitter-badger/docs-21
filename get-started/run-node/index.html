@@ -379,54 +379,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#docker-images" title="Docker images" class="md-nav__link">
-    Docker images
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#prerequisites_1" title="Prerequisites" class="md-nav__link">
-    Prerequisites
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#usage_1" title="Usage" class="md-nav__link">
-    Usage
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#running-the-tomochain-image" title="Running the tomochain image" class="md-nav__link">
-    Running the tomochain image
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#running-the-telegraf-image" title="Running the telegraf image" class="md-nav__link">
-    Running the telegraf image
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#binaries" title="Binaries" class="md-nav__link">
-    Binaries
-  </a>
-  
-</li>
-      
       
       
       
@@ -734,54 +686,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#docker-images" title="Docker images" class="md-nav__link">
-    Docker images
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#prerequisites_1" title="Prerequisites" class="md-nav__link">
-    Prerequisites
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#usage_1" title="Usage" class="md-nav__link">
-    Usage
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#running-the-tomochain-image" title="Running the tomochain image" class="md-nav__link">
-    Running the tomochain image
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#running-the-telegraf-image" title="Running the telegraf image" class="md-nav__link">
-    Running the telegraf image
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#binaries" title="Binaries" class="md-nav__link">
-    Binaries
-  </a>
-  
-</li>
-      
       
       
       
@@ -808,9 +712,17 @@
 <li>The <a href="https://github.com/tomochain/tomochain">TomoChain client</a>, our TomoChain implementation written in <em>Go</em>.</li>
 <li><a href="https://github.com/influxdata/telegraf">Telegraf</a>, an agent to collect performance metrics of your full node.</li>
 </ul>
-<p>We provide different way of running a node to assure flexibility in integration depending on your current infrastructure.</p>
 <h2 id="general-hardware-notice">General hardware notice<a class="headerlink" href="#general-hardware-notice" title="Permanent link">&para;</a></h2>
-<p>Our team extensively tested performances and came up with those minimal requirements for any TomoChain masternode host:</p>
+<p>Our team extensively tested performances and came up with those minimal requirements for any TomoChain masternode host.</p>
+<p><strong>Testnet</strong></p>
+<ul>
+<li>Must be facing internet directly (no NAT, public IP)</li>
+<li>Must have at least 2 cores</li>
+<li>Must have at least 8GB of RAM</li>
+<li>Must use an IaaS ("cloud") provider of your choice (AWS, Digital Ocean, Google Cloud, etc.).</li>
+<li>Storage must be SSD</li>
+</ul>
+<p><strong>Mainnet</strong></p>
 <ul>
 <li>Must be facing internet directly (no NAT, public IP)</li>
 <li>Must have at least 8 cores</li>
@@ -818,8 +730,9 @@
 <li>Must use an IaaS ("cloud") provider of your choice (AWS, Digital Ocean, Google Cloud, etc.)</li>
 <li>Storage must be SSD</li>
 </ul>
-<p>The full node will serve on port <code>30303</code> for p2p communication with other nodes, <code>8545</code> for RPC api and <code>8546</code> for websocket api.
+<p>The full node will serve on port <code>30303</code> udp and tcp for p2p communication with other nodes, <code>8545</code> tcp for RPC api and <code>8546</code> tcp for websocket api.
 You may need to edit your firewall configuration accordingly.</p>
+<p>If you have other production grade environment than cloud provider at your displosal, please tell us more about on our <a href="https://gitter.im/tomochain">Gitter</a>.</p>
 <h2 id="tmn">tmn<a class="headerlink" href="#tmn" title="Permanent link">&para;</a></h2>
 <p>We made a simple command line interface called <a href="https://github.com/tomochain/masternode">tmn</a> to easily and quickly start a TomoChain masternode.
 It takes care of starting the necessary docker containers with the proper settings for you.
@@ -867,66 +780,6 @@ A tomochain full node use an account to be uniquely identified and to receive tr
 <p><code>inspect</code>: Display the details related to your full node.
 Useful for applying your full node as a masternode.</p>
 <p><code>remove</code>: Completely remove your masternode, unique identity and data.</p>
-<h2 id="docker-images">Docker images<a class="headerlink" href="#docker-images" title="Permanent link">&para;</a></h2>
-<h3 id="prerequisites_1">Prerequisites<a class="headerlink" href="#prerequisites_1" title="Permanent link">&para;</a></h3>
-<p>To run the docker images, you should meet this requirement in addition of the hardware ones:</p>
-<ul>
-<li><a href="https://docs.docker.com/install/">Docker CE</a></li>
-</ul>
-<h3 id="usage_1">Usage<a class="headerlink" href="#usage_1" title="Permanent link">&para;</a></h3>
-<p>You can use our docker images with vanilla docker, docker-compose or any orchestrator of your choice.
-You will need to run our two docker images: <code>tomochain/infra-tomochain</code> and <code>tomochain/telegraf</code>.</p>
-<h3 id="running-the-tomochain-image">Running the tomochain image<a class="headerlink" href="#running-the-tomochain-image" title="Permanent link">&para;</a></h3>
-<p>To run a full node, you need to provide those configurations through environment variables:</p>
-<p><code>IDENTITY</code>: The unique identity of your full node.
-The identity should be of this format: <code>$NAME_$IDENTIFIER</code>.
-Please use letters, numbers, dashes ("-") and underscore ("_") only in the name.
-The identifier should be a 6 character hexadecimal string.
-You can generate one easily with the command <code>uuidgen | cut -c -6</code></p>
-<p><code>PRIVATE_KEY</code>: The private key of the account that your full node will use.
-A tomochain full node use an account to be uniquely identified and to receive rewards.</p>
-<p><code>BOOTNODES</code>: The bootnodes specific to the network you want to connect to.
-They should be separated by commas without any whitespace. <!-- TODO: bootnode address? --></p>
-<p><code>NETSTATS_HOST</code>: The netstats endpoint specific to the network you want to connect to.
-For Testnet, it's <code>stats.testnet.tomochain.com</code>.</p>
-<p><code>NETSTATS_PORT</code>: The port of the netstats endpoint.
-For Testnet, it's <code>443</code>. <!-- TODO: remove? and set 443 as default --></p>
-<p>It is also strongly recommended to use a named volume to store the blockchain data.
-This way, the node will not need to re-download the whole blockchain on every restart.
-The blockchain data is located in <code>/tomochain/data</code>.</p>
-<p>Here is an example of running a tomochain container configured to use our Testnet:</p>
-<pre><code>docker run -p 30303:30303 \
-    -v chaindata:/tomochain/data \
-    -e IDENTITY=companyabcd_30D37E \
-    -e BOOTNODES=enode://4d3c2cc0ce7135c1778c6f1cfda623ab44b4b6db55289543d48ecfde7d7111fd420c42174a9f2fea511a04cf6eac4ec69b4456bfaaae0e5bd236107d3172b013@52.221.28.223:30301,enode://298780104303fcdb37a84c5702ebd9ec660971629f68a933fd91f7350c54eea0e294b0857f1fd2e8dba2869fcc36b83e6de553c386cf4ff26f19672955d9f312@13.251.101.216:30301,enode://46dba3a8721c589bede3c134d755eb1a38ae7c5a4c69249b8317c55adc8d46a369f98b06514ecec4b4ff150712085176818d18f59a9e6311a52dbe68cff5b2ae@13.250.94.232:30301 \
-    -e NETSTATS_HOST=stats.testnet.tomochain.com \
-    -e NETSTATS_PORT=443 tomochain/infra-tomochain:latest
-</code></pre>
-
-<h3 id="running-the-telegraf-image">Running the telegraf image<a class="headerlink" href="#running-the-telegraf-image" title="Permanent link">&para;</a></h3>
-<p>You also need to run the telegraf image to provide the required metrics to our governance system.</p>
-<p>You need to provide these configuration through environment variable:</p>
-<p><code>METRICS_ENDPOINT</code>: The metrics endpoint specific to the network you want to connect to.
-For testnet, it's <code>https://metrics.testnet.tomochain.com</code>.</p>
-<p>You will also need to mount different repertories of your host system to let telegraf get the metrics:</p>
-<p><code>/var/run/docker.sock</code> -&gt; <code>/var/run/docker.sock</code></p>
-<p><code>/sys</code> -&gt; <code>/rootfs/sys</code></p>
-<p><code>/proc</code> -&gt; <code>/rootfs/proc</code></p>
-<p><code>/etc</code> -&gt; <code>/rootfs/etc</code></p>
-<p>Here is an example of running a telegraf container configured to use our Testnet: <!-- TODO update images! infra-telegraf:devnet -> telegraf:latest --></p>
-<pre><code>docker run \
-    -v /var/run/docker.sock:/var/run/docker.sock:ro \
-    -v /sys:/rootfs/sys:ro -v /proc:/rootfs/proc:ro \
-    -v /etc:/rootfs/etc:ro \
-    -e METRICS_ENDPOINT=https://metrics.testnet.tomochain.com \
-    tomochain/telegraf:latest
-</code></pre>
-
-<h2 id="binaries">Binaries<a class="headerlink" href="#binaries" title="Permanent link">&para;</a></h2>
-<p>You can also run directly the tomo binary.
-Please refer to the tomochain repository <a href="https://github.com/tomochain/tomochain">readme</a>.
-You will also need to run the telegraf docker image.
-You can refer to the "Docker images" part of this document to that effect.</p>
                 
                   
                 
