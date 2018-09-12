@@ -736,10 +736,10 @@ You may need to edit your firewall configuration accordingly.</p>
 <h2 id="tmn">tmn<a class="headerlink" href="#tmn" title="Permanent link">&para;</a></h2>
 <p>We made a simple command line interface called <a href="https://github.com/tomochain/masternode">tmn</a> to easily and quickly start a TomoChain masternode.
 It takes care of starting the necessary docker containers with the proper settings for you.
-It will really suits you if you don't already have a big infrastructure running.
+It will really suit you if you don't already have a big infrastructure running.
 Spin up a machine in your favorite cloud and get your masternode running in a few minutes!</p>
 <h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h3>
-<p>To use tmn, you should meet this requirements in addition of the hardware ones:</p>
+<p>To use tmn, you should meet these requirements in addition to the hardware ones:</p>
 <ul>
 <li><a href="https://docs.docker.com/install/">Docker CE</a></li>
 <li><a href="https://docs.python-guide.org/starting/install3/linux/">Python</a> &gt;= 3.6</li>
@@ -761,9 +761,9 @@ It should be formatted as a slug string.
 Slug format authorize all letters and numbers, dashes ("-") and underscores ("_").
 You can name it to reflect your identity, company name, etc.</p>
 <p><code>--net</code>: The network your full node will connect to.
-You can chose here to connect it to the TomoChain Testnet or Mainnet (once launched).</p>
+You can choose here to connect it to the TomoChain Testnet or Mainnet (once launched).</p>
 <p><code>--pkey</code>: The private key of the account that your full node will use.
-A tomochain full node use an account to be uniquely identified and to receive transaction fee.</p>
+A TomoChain full node uses an account to be uniquely identified and to receive transaction fee.</p>
 <p>It could look like this:</p>
 <pre><code>tmn start --name [YOUR_NODE_NAME] \
     --net testnet \
@@ -775,7 +775,7 @@ A tomochain full node use an account to be uniquely identified and to receive tr
 <h3 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h3>
 <p>You can now interact with it via the other commands:</p>
 <p><code>stop</code>: Stop your full node.</p>
-<p><code>start</code>: Start your full node if it was stopped.</p>
+<p><code>start</code>: Start your full node if it is stopped.</p>
 <p><code>status</code>: The current status of your full node.</p>
 <p><code>inspect</code>: Display the details related to your full node.
 Useful for applying your full node as a masternode.</p>
