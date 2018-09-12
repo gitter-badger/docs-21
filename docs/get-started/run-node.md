@@ -30,7 +30,7 @@ Our team extensively tested performances and came up with those minimal requirem
 The full node will serve on port `30303` udp and tcp for p2p communication with other nodes, `8545` tcp for RPC api and `8546` tcp for websocket api.
 You may need to edit your firewall configuration accordingly.
 
-If you have other production grade environment than cloud provider at your displosal, please tell us more about on our [Gitter](https://gitter.im/tomochain).
+If you have any other production grade environment than cloud providers at your displosal, please tell us more about it on our [Gitter](https://gitter.im/tomochain).
 
 ## tmn
 
