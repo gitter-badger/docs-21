@@ -121,11 +121,6 @@
             "title": "Resigning your masternode"
         }, 
         {
-            "location": "/wallets/metamask/", 
-            "text": "Tomochain will guide you how to connect MetaMask to Tomochain Testnet. It is an essential step to study an overview of Tomochain features in term of meeting the crypto trading needs on system. To developers looking to learn about Dapp and Smart Contract.\n\n\nGet started! You first need to install Extension MetaMask on Chrome or Brave browsers. Once you agree to the Metamask Terms of Use and create an account successfully, follow instructions:\n\n\nStep 1:\n Click to MetaMask logo on the browser to open the Extention -\n select \u201cNetwork\u201d -\n select \u201cCustom RPC\u201d as shown below:\n\n\n\n\nStep 2:\n When Setting screen pops up, you enter \u201chttps://testnet.tomochain.com\u201d into New RPC URL Texbox then Save.\n\n\n\n\nStep 3:\n You successfully connect to Tomochain Testnet after 2 steps. Next, you use TOMO to pay a Gas fee to implement Smart Contact. To have some TOMO in the testnet, you can enter your wallet address in Faucet site \nhttps://faucet.testnet.tomochain.com/\n to request some TOMO.\n\n\nSo, you accomplish connecting the MetaMask to Tomochain (testnet). From now on, you can make transactions and develop Dapp as well as Smart Contract as you wish.", 
-            "title": "Metamask"
-        }, 
-        {
             "location": "/wallets/tomowallet/", 
             "text": "Now, TomoWallet is available at \nhttps://wallet.testnet.tomochain.com\n. You can try to create a wallet, get some TOMO on the testnet or transfer/receive TOMO.\n\n\nNote: For now, TomoWallet only works on Tomochain Testnet. So all TOMO you have in TomoWallet is only for testing purpose.\n\n\nCreate a new wallet\n\n\nOn the first page, click \nCREATE NEW WALLET\n button. TomoWallet will automatically create a new wallet and show up the address, qr code and the balance in your home page.\n\n\n\n\nEarn TOMO\n\n\nOn the homepage, you click \nEarn TOMO to test\n on the bottom left corner. After that, you can click \nREQUEST\n button and wait a couple of seconds to get some TOMO.\n\n\n\n\nTransfer TOMO\n\n\nOn left menu, click \nTranfer\n to go to \nTranfer TOMO\n page.\n\n\n\n\nYou just need to enter a valid recipient address and amount TOMO you want to send and click \nSEND\n.\n\n\nAfter few seconds, you transaction will be presented at \nTransactions\n page as the below:\n\n\n\n\nDelete a wallet\n\n\nIn case, you want to access other wallets, you need to delete current wallet. Make sure you already backup \nPrivate Key\n and \nRecovery Phrases\n. So you can import your wallet again.\n\n\nTo delete your wallet, just go to \ndetails\n page, and click \nDELETE THIS WALLET\n button.\n\n\nImport your wallet\n\n\nOn the first page, clock \nIMPORT YOUR WALLET\n. After that, enter our \nPrivate Key\n or \nRecovery Phrases\n, click \nIMPORT\n button.", 
             "title": "TomoWallet"
@@ -154,6 +149,16 @@
             "location": "/wallets/tomowallet/#import-your-wallet", 
             "text": "On the first page, clock  IMPORT YOUR WALLET . After that, enter our  Private Key  or  Recovery Phrases , click  IMPORT  button.", 
             "title": "Import your wallet"
+        }, 
+        {
+            "location": "/wallets/mew/", 
+            "text": "MyEtherWallet released version 3.21.14, supports TomoChain Testnet 2.0. So you are able to easily use MEW to transfer/receive TOMO on Testnet.\n\n\nFrom \nMyEtherWallet\n homepage, at top right corner, you can select TomoChain Testnet\n\n\n\n\nAfter that, you can import/create a wallet, view the balance and make a transaction to send TOMO to another address.\n\n\n\n\nAll transactions you make will be recorded in TomoChain transparently viewed on TomoScan.\n\n\n\n\nYou are also able to use hardware wallets (Trezor, Ledger Nano S) in MyEtherWallet to connect TomoChain Testnet.", 
+            "title": "MyEtherWallet"
+        }, 
+        {
+            "location": "/wallets/metamask/", 
+            "text": "Tomochain will guide you how to connect MetaMask to Tomochain Testnet. It is an essential step to study an overview of Tomochain features in term of meeting the crypto trading needs on system. To developers looking to learn about Dapp and Smart Contract.\n\n\nGet started! You first need to install Extension MetaMask on Chrome or Brave browsers. Once you agree to the Metamask Terms of Use and create an account successfully, follow instructions:\n\n\nStep 1:\n Click to MetaMask logo on the browser to open the Extention -\n select \u201cNetwork\u201d -\n select \u201cCustom RPC\u201d as shown below:\n\n\n\n\nStep 2:\n When Setting screen pops up, you enter \u201chttps://testnet.tomochain.com\u201d into New RPC URL Texbox then Save.\n\n\n\n\nStep 3:\n You successfully connect to Tomochain Testnet after 2 steps. Next, you use TOMO to pay a Gas fee to implement Smart Contact. To have some TOMO in the testnet, you can enter your wallet address in Faucet site \nhttps://faucet.testnet.tomochain.com/\n to request some TOMO.\n\n\nSo, you accomplish connecting the MetaMask to Tomochain (testnet). From now on, you can make transactions and develop Dapp as well as Smart Contract as you wish.", 
+            "title": "Metamask"
         }, 
         {
             "location": "/whitepaper/", 
