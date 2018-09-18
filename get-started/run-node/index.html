@@ -374,6 +374,33 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#troubleshooting" title="Troubleshooting" class="md-nav__link">
+    Troubleshooting
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tmn-command-not-found" title="tmn: command not found" class="md-nav__link">
+    tmn: command not found
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-could-not-access-the-docker-daemon" title="error: could not access the docker daemon" class="md-nav__link">
+    error: could not access the docker daemon
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -693,6 +720,33 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#troubleshooting" title="Troubleshooting" class="md-nav__link">
+    Troubleshooting
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tmn-command-not-found" title="tmn: command not found" class="md-nav__link">
+    tmn: command not found
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-could-not-access-the-docker-daemon" title="error: could not access the docker daemon" class="md-nav__link">
+    error: could not access the docker daemon
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -775,7 +829,10 @@ You can name it to reflect your identity, company name, etc.</p>
 <p><code>--net</code>: The network your full node will connect to.
 You can choose here to connect it to the TomoChain Testnet or Mainnet (once launched).</p>
 <p><code>--pkey</code>: The private key of the account that your full node will use.
-A TomoChain full node uses an account to be uniquely identified and to receive transaction fee.</p>
+A TomoChain full node uses an account to be uniquely identified and to receive transaction fee.
+<strong>Important note:</strong> we advise for security measures to use a fresh new account for your masternode.
+This is not the account who will receive the rewards.
+The rewards are sent to the account who will make the 50k TOMO initial deposit.</p>
 <p>It could look like this:</p>
 <pre><code>tmn start --name [YOUR_NODE_NAME] \
     --net testnet \
@@ -783,7 +840,7 @@ A TomoChain full node uses an account to be uniquely identified and to receive t
 </code></pre>
 
 <p>Once started, you should see your node on the <a href="https://stats.testnet.tomochain.com">stats page</a>!</p>
-<p>Note: it can take up to 15 minutes to properly end the first synchronization.</p>
+<p>Note: it can take up to one hour to properly sync the entire blockchain.</p>
 <h3 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h3>
 <p>You can now interact with it via the other commands:</p>
 <p><code>stop</code>: Stop your full node.</p>
@@ -792,6 +849,24 @@ A TomoChain full node uses an account to be uniquely identified and to receive t
 <p><code>inspect</code>: Display the details related to your full node.
 Useful for applying your full node as a masternode.</p>
 <p><code>remove</code>: Completely remove your masternode, unique identity and data.</p>
+<h3 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h3>
+<h4 id="tmn-command-not-found">tmn: command not found<a class="headerlink" href="#tmn-command-not-found" title="Permanent link">&para;</a></h4>
+<p>It might happen that your PATH is not set by default to include the default user binary directory.
+You can add it by adding it to your shell $PATH:</p>
+<p>On GNU/Linux:</p>
+<pre><code>echo 'export PATH=$PATH:~/.local/bin' &gt;&gt; ~/.bashrc
+</code></pre>
+
+<p>On MacOS:
+Replace <code>[VERSION]</code> by your version of python (3.5, 3.6, 3.7) </p>
+<pre><code>echo 'export PATH=$PATH:~/Library/Python/[VERSION]/bin' &gt;&gt; ~/.bashrc
+</code></pre>
+
+<h4 id="error-could-not-access-the-docker-daemon">error: could not access the docker daemon<a class="headerlink" href="#error-could-not-access-the-docker-daemon" title="Permanent link">&para;</a></h4>
+<p>If you have installed Docker, you probably forgot to add your user to the docker group.
+Please run this, close your session and open it again.</p>
+<pre><code>usermod -aG docker $your_user_name
+</code></pre>
                 
                   
                 
