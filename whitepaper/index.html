@@ -419,16 +419,16 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#Sec:MasternodeDesign" title="Tomochain Masternode Design" class="md-nav__link">
-    Tomochain Masternode Design
+  <a href="#Sec:MasternodeDesign" title="TomoChain Masternode Design" class="md-nav__link">
+    TomoChain Masternode Design
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#Sec:TomochainOverview" title="The Tomochain architecture" class="md-nav__link">
-    The Tomochain architecture
+  <a href="#Sec:TomochainOverview" title="The TomoChain architecture" class="md-nav__link">
+    The TomoChain architecture
   </a>
   
 </li>
@@ -473,8 +473,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#Sec:ProtocolOverview" title="Tomochain Consensus Protocol" class="md-nav__link">
-    Tomochain Consensus Protocol
+  <a href="#Sec:ProtocolOverview" title="TomoChain Consensus Protocol" class="md-nav__link">
+    TomoChain Consensus Protocol
   </a>
   
     <nav class="md-nav">
@@ -853,16 +853,16 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#Sec:MasternodeDesign" title="Tomochain Masternode Design" class="md-nav__link">
-    Tomochain Masternode Design
+  <a href="#Sec:MasternodeDesign" title="TomoChain Masternode Design" class="md-nav__link">
+    TomoChain Masternode Design
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#Sec:TomochainOverview" title="The Tomochain architecture" class="md-nav__link">
-    The Tomochain architecture
+  <a href="#Sec:TomochainOverview" title="The TomoChain architecture" class="md-nav__link">
+    The TomoChain architecture
   </a>
   
 </li>
@@ -907,8 +907,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#Sec:ProtocolOverview" title="Tomochain Consensus Protocol" class="md-nav__link">
-    Tomochain Consensus Protocol
+  <a href="#Sec:ProtocolOverview" title="TomoChain Consensus Protocol" class="md-nav__link">
+    TomoChain Consensus Protocol
   </a>
   
     <nav class="md-nav">
@@ -1128,7 +1128,7 @@
 <p>The blockchain industry and the infrastructure of the Internet of Value
 are being built rapidly around the globe, and to many the atmosphere is
 eerily similar to the building of the Internet in the late ‘90s, with
-pioneers and dreamers coming together to build a new future. <strong>Tomochain</strong> can be a
+pioneers and dreamers coming together to build a new future. <strong>TomoChain</strong> can be a
 leading part of this phenomenon through seamlessly merging an ecosystem
 of applications with cryptographic tokens used by millions of mainstream
 users with a unique blockchain infrastructure architecture allowing for
@@ -1145,7 +1145,7 @@ Ethereum Virtual Machine (EVM) proposed several significant enhancements
 compared to Bitcoin, including Smart Contracts. Both Bitcoin and
 Ethereum have some issues, especially with transaction processing
 performance. In order to construct an efficient and secured consensus
-protocol for <strong>Tomochain</strong>, we tackle the following main bottlenecks of classic
+protocol for <strong>TomoChain</strong>, we tackle the following main bottlenecks of classic
 blockchains:</p>
 <ul>
 <li>
@@ -1187,7 +1187,7 @@ following key strategies:</p>
 </li>
 </ul>
 <p>To start dealing with these problems, in this paper, we present an
-overview architectural design of Tomochain’s master nodes. In particular, we
+overview architectural design of <strong>TomoChain</strong>’s master nodes. In particular, we
 propose (PoSV) consensus, a Proof-of-Stake (PoS)-based blockchain
 protocol with a fair voting mechanism, rigorous security guarantees and
 fast finality. We also present a novel reward mechanism and show that,
@@ -1197,23 +1197,23 @@ are fair in the sense that the probability distribution function is
 uniform eventually.</p>
 <h3 id="structure-of-the-remainder-of-the-paper">Structure of the remainder of the paper<a class="headerlink" href="#structure-of-the-remainder-of-the-paper" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Section <a href="#Sec:MasternodeDesign">Tomochain Overview</a>: explains the intuition ideas and
+<li>Section <a href="#Sec:MasternodeDesign">TomoChain Overview</a>: explains the intuition ideas and
 overview architectural design of masternodes, framework and background
 protocols that help mass readers (e.g., investors, traders, others) who
 may not have technical knowledge understand our mechanism easily.</li>
-<li>Section <a href="#Sec:StakeVoting">Stakeholders &amp; Voting</a> presents <strong>Tomochain</strong> stakeholder policy, masternode
+<li>Section <a href="#Sec:StakeVoting">Stakeholders &amp; Voting</a> presents <strong>TomoChain</strong> stakeholder policy, masternode
 committee voting systems, and reward mechanism.</li>
-<li>Section <a href="#Sec:ProtocolOverview">Tomochain consensus protocol</a> explains the motivation and double
+<li>Section <a href="#Sec:ProtocolOverview">TomoChain consensus protocol</a> explains the motivation and double
 validation process as well as finality checkpoint of the protocol. </li>
 <li>In Section <a href="#Sec:ProtocolFormalization">Protocol formalizations</a>, we present the formalization of our model in a mathematical way to show the soundness of our model and protocol. </li>
 <li>Section <a href="#Sec:SecurityAnalysis">Security Analysis</a> discusses the security analysis and resistant strain of potential attacks. </li>
-<li>We discuss and compare <strong>Tomochain</strong> with several existing blockchains in Section <a href="#Sec:relatedwork">related work</a>. </li>
+<li>We discuss and compare <strong>TomoChain</strong> with several existing blockchains in Section <a href="#Sec:relatedwork">related work</a>. </li>
 <li>Finally, we conclude the paper in Section <a href="#Sec:Conclusion">Conclusion</a>.</li>
 </ul>
-<h2 id="Sec:MasternodeDesign">Tomochain Masternode Design<a class="headerlink" href="#Sec:MasternodeDesign" title="Permanent link">&para;</a></h2>
-<h3 id="Sec:TomochainOverview">The Tomochain architecture<a class="headerlink" href="#Sec:TomochainOverview" title="Permanent link">&para;</a></h3>
-<p>The <strong>Tomochain</strong> blockchain is produced and maintained by a set of <em>masternodes</em> in a
-consistent manner through the <strong>Tomochain consensus</strong> protocol as shown in Fig.
+<h2 id="Sec:MasternodeDesign">TomoChain Masternode Design<a class="headerlink" href="#Sec:MasternodeDesign" title="Permanent link">&para;</a></h2>
+<h3 id="Sec:TomochainOverview">The TomoChain architecture<a class="headerlink" href="#Sec:TomochainOverview" title="Permanent link">&para;</a></h3>
+<p>The <strong>TomoChain</strong> blockchain is produced and maintained by a set of <em>masternodes</em> in a
+consistent manner through the <strong>TomoChain consensus</strong> protocol as shown in Fig.
 <a href="#fig:architecture">architecture</a>. These masternodes are full nodes that hold TOMO.
 For a token holder to become a masternode, two requirements must be
 satisfied:</p>
@@ -1234,14 +1234,14 @@ current Bitcoin and Ethereum blockchain, TomoChain also provides a new technique
 namely <em>Double Validation</em> complemented with a <em>Randomization</em>
 mechanism. This new technique significantly decreases the probability of
 having invalid blocks in the blockchain. These enhancements and the
-components of <strong>Tomochain</strong> are step-by-step detailed in the followings.</p>
+components of <strong>TomoChain</strong> are step-by-step detailed in the followings.</p>
 <p><img alt="architecture" id="fig:architecture" src="../figures/architecture.jpg" /></p>
 <h2 id="Sec:StakeVoting">Stakeholders &amp; Voting<a class="headerlink" href="#Sec:StakeVoting" title="Permanent link">&para;</a></h2>
 <h3 class="unnumbered" id="coin-holders-masternodes">Token holders, Masternodes<a class="headerlink" href="#coin-holders-masternodes" title="Permanent link">&para;</a></h3>
 <p>Token holder is as simple as its name: users who join the network, who
 own and transfer TOMO. Masternodes are full-nodes which maintain a
 copy of the blockchain, produce blocks and keep the chain consistent. It
-is worth noting that, <strong>Tomochain</strong> does not have miners as in the current
+is worth noting that, <strong>TomoChain</strong> does not have miners as in the current
 Proof-of-Work-based blockchain systems such as Bitcoin and Ethereum.
 Only masternodes can produce and validate blocks.</p>
 <p>Masternodes are selected via a voting system. The first requirement of
@@ -1252,7 +1252,7 @@ TOMO to the smart contract.</p>
 <p>Masternodes which work hard in the system to create and verify blocks
 will be incentivized with TOMO. Furthermore, token holders who vote for
 these incentivized masternodes will also receive TOMO in proportion to
-the amount of TOMO they have invested via ballots. <strong>Tomochain</strong> engineers take
+the amount of TOMO they have invested via ballots. <strong>TomoChain</strong> engineers take
 responsibility to design that fair, explicit, automated and accountable
 reward mechanism.</p>
 <p>The list of masternode candidates is dynamically sorted based on voted
@@ -1295,20 +1295,27 @@ earns. For instance, within an epoch, masternode A who has sealed twice
 the blocks than masternode B earns double amount of TOMO than
 masternode B does.</p>
 <p>Furthermore, there is also a reward sharing ratio among token holders and
-masternode who has been elected supported by the token holders. For
-example, within an epoch, one masternode receives <script type="math/tex">X</script> TOMO. Ten
-percent of <script type="math/tex">X</script> is sent to the masternode’s address. Eighty percent of
-<script type="math/tex">X</script> is shared in proportion to the amount of tokens deposited and voted
-by the masternode and token holders, respectively. The last ten percent
-of <script type="math/tex">X</script> credits to the <strong>Tomochain</strong> foundation. oken holders who unvote before the
-checkpoint block will not receive any shared reward.</p>
-<h2 id="Sec:ProtocolOverview">Tomochain Consensus Protocol<a class="headerlink" href="#Sec:ProtocolOverview" title="Permanent link">&para;</a></h2>
+masternode who has been elected supported by the token holders. 
+Specifically, each epoch consists of 900 blocks, which will reward a total of 250 TOMO in the first two years. 
+This amount of 250 TOMO will be divided to all of the Masternodes proportionally to the number of signatures they sign during the epoch. 
+Afterward, the reward achieved by each Masternode  will be divided into three portions. 
+-   <strong>Infrastructure Reward</strong>: The first portion of 40% called <strong>Infrastructure Reward</strong> goes to the Masternode.</p>
+<ul>
+<li>
+<p><strong>Staking Reward</strong>: The second portion of 50% called <strong>Staking Reward</strong> goes to the pool of all voters  for that Masternode which is shared proportionally based on the token stake.</p>
+</li>
+<li>
+<p><strong>Foundation Reward</strong>: The last portion of 10% called <strong>Foundation Reward</strong> goes to a special account controlled by the Masternode Foundation, which is run by <strong>TomoChain</strong> company initially.</p>
+</li>
+</ul>
+<p>It is worth noting that coin-holders who unvote before the checkpoint block will not receive any shared reward in the <strong>Staking Reward</strong> portion.</p>
+<h2 id="Sec:ProtocolOverview">TomoChain Consensus Protocol<a class="headerlink" href="#Sec:ProtocolOverview" title="Permanent link">&para;</a></h2>
 <h3 class="unnumbered" id="double-validation-process">Double Validation Process<a class="headerlink" href="#double-validation-process" title="Permanent link">&para;</a></h3>
 <p>In TomoChain, masternodes share equal responsibility to run the system and keep
 it stable. Full nodes should run on powerful hardware configuration and
 high-speed network connectivity in order to ensure the required block
 time (target to two seconds). Only masternodes can produce and seal
-blocks. In order for that, the <strong>Tomochain</strong> consensus relies on the concept of
+blocks. In order for that, the <strong>TomoChain</strong> consensus relies on the concept of
 <strong>Double Validation</strong> that improves some existing consensus mechanisms,
 namely <strong>Single Validation</strong>. In the followings, we first describe the
 <strong>Double Validation</strong>, then analyze the differences and improvements of
@@ -1318,7 +1325,7 @@ namely <strong>Single Validation</strong>. In the followings, we first describe 
 block is created by a block producer, namely masternode, that takes its
 block creation permission turn following a pre-determined and circular
 sequence of masternodes for each epoch. However, differently from these
-existing blockchains, DV in <strong>Tomochain</strong> requires the signatures of two masternodes
+existing blockchains, DV in <strong>TomoChain</strong> requires the signatures of two masternodes
 on a block to be able to push the block to the blockchain. One of the
 masternodes is the <strong>block creator</strong> while the other one, namely <strong>block
 verifier</strong> is randomly selected among the set of voted masternodes that
@@ -1338,7 +1345,7 @@ maintaining the system security and consistency. Randomization of block
 verifiers in DV is the key factor of reducing risks coming from paired
 masternodes trying to commit malicious blocks. Furthermore, comparing to
 some current public blockchains in the market, by utilizing the DV
-technique, <strong>Tomochain</strong> brings significant improvements in the block time by only
+technique, <strong>TomoChain</strong> brings significant improvements in the block time by only
 requiring two signatures per block. For the purpose of showing our
 enhancement over existing PoS-based blockchains, we analyze the
 differences between DV and the Single Validation mechanism in some
@@ -1499,7 +1506,7 @@ strong incentives for masternodes to never try colluding revert the
 block: once masternodes make such maximum-odds bets, in any blockchain
 where that block or state is not present, the masternodes lose their
 entire deposit"</em> (see <a href="#finality">here</a>.</p>
-<p><strong>Tomochain</strong> keeps that standardization in the design so that one block is considered
+<p><strong>TomoChain</strong> keeps that standardization in the design so that one block is considered
 as irreversible if it collects at least <script type="math/tex">\frac{3}{4}</script> signatures of all
 masternodes committee. The time-line of blockchain creation process,
 checking finality and mark the block as immutable is described as in
@@ -1512,19 +1519,19 @@ Figure: <a href="#fig:ChainMaking">ChainMaking</a> below.</p>
 follow the way of formalization in the recent works in the literature
 like  <a href="#Cardano2017">Cardano</a> and  <a href="#Pass2017">here</a> and here <a href="#PassCrypto2017">here</a>. In particular, we
 recall the following concepts and definitions that were presented
-in <a href="#Cardano2017">Cardano</a> and adapt them to the context of Tomochain.</p>
+in <a href="#Cardano2017">Cardano</a> and adapt them to the context of TomoChain.</p>
 <h3 class="unnumbered" id="time-slots-epoch">Time, Slots, Epoch<a class="headerlink" href="#time-slots-epoch" title="Permanent link">&para;</a></h3>
 <p>As previously described, ideally, each epoch is divided into 900 block time, that is called block slot.
-Only one block can be created in a slot. We assume that there is a roughly synchronized clock that allows for masternodes to learn the current slot. This simplification will effectively permit masternodes to execute the signing and validation process of the PoSV consensus, where each masternode must collectively create a block to the current slot. For more simplification, each slot <script type="math/tex">sl_r</script> is accessed by an integer <script type="math/tex">r \in \{1, 2, ...990\}</script>, and suppose that the real time window that corresponds to each slot has the following properties, which are similar to what are specified in <a href="#Cardano2017">Cardano</a>.</p>
+Only one block can be created in a slot. We assume that there is a roughly synchronized clock that allows for masternodes to learn the current slot. This simplification will effectively permit masternodes to execute the signing and validation process of the PoSV consensus, where each masternode must collectively create a block to the current slot. For more simplification, each slot <script type="math/tex">sl_r</script> is accessed by an integer <script type="math/tex">r \in \{1, 2, ...900\}</script>, and suppose that the real time window that corresponds to each slot has the following properties, which are similar to what are specified in <a href="#Cardano2017">Cardano</a>.</p>
 <ol>
 <li>
 <p>Every masternode can determine the index of the current slot based on the current time and ”any discrepancies between parties’ local time are insignificant in comparison with the length of time represented by a slot” <a href="#Cardano2017">Cardano</a></p>
 </li>
 <li>
-<p>The amount of a slot time is sufficient to guarantee that any message transmitted by an honest party at the beginning of the time window will be received by any other honest party by the end of that time window. While this assumption similar to <a href="#Cardano2017">Cardano</a>, Tomochain requires it in order for a block creator to propagate its created block to the corresponding block verifier to ensure that the block is signed by both the masternodes before the next block creator builds another block on top of it.</p>
+<p>The amount of a slot time is sufficient to guarantee that any message transmitted by an honest party at the beginning of the time window will be received by any other honest party by the end of that time window. While this assumption similar to <a href="#Cardano2017">Cardano</a>, TomoChain requires it in order for a block creator to propagate its created block to the corresponding block verifier to ensure that the block is signed by both the masternodes before the next block creator builds another block on top of it.</p>
 </li>
 </ol>
-<p>As mentioned in Section <a href="#Sec:MasternodeDesign">TomochainOverview</a>, in our setting, we assume that the fixed collection of <script type="math/tex">m</script> (99) masternodes
+<p>As mentioned in Section <a href="#Sec:MasternodeDesign">TomochainOverview</a>, in our setting, we assume that the fixed collection of <script type="math/tex">m</script> (150) masternodes
 <script type="math/tex">V_1, V_2, ...., V_m</script> interact throughout the protocol. 
 For each <script type="math/tex">V_i</script> a public/private key pair (<script type="math/tex">pk_i</script>,<script type="math/tex">sk_i</script>) for a prescribed signature scheme, ideally ECDSA, is generated. Furthermore, we assume that the public keys <script type="math/tex">pk_1</script>,..,<script type="math/tex">pk_m</script> of the masternodes are distributed and known by all of them (that means a masternode knows all public keys of other nodes). Some notable definitions of the blockchain concepts are defined following the notation in <a href="#Garay2015">here</a>.</p>
 <ul>
@@ -1543,11 +1550,11 @@ corresponding to the masternode <script type="math/tex">V_i</script> generating 
 </li>
 </ul>
 <p><img alt="al 1" src="../figures/al1.png" /></p>
-<p>As mentioned earlier, in our <strong>Tomochain</strong> model, we set each time <em>slot</em> <script type="math/tex">sl_i</script> as 2
-seconds; an epoch is a set <script type="math/tex">R</script> of 990 slots
-<script type="math/tex">\{ sl_1, sl_2, ..., sl_{990}\}</script> (an epoch time duration equals to 1980
+<p>As mentioned earlier, in our <strong>TomoChain</strong> model, we set each time <em>slot</em> <script type="math/tex">sl_i</script> as 2
+seconds; an epoch is a set <script type="math/tex">R</script> of 900 slots
+<script type="math/tex">\{ sl_1, sl_2, ..., sl_{900}\}</script> (an epoch time duration equals to 1800
 seconds).</p>
-<p>In summary, the consensus protocol of <strong>Tomochain</strong> can be formalized in Algorithm ValidatorGeneration. The Algorithm ValidatorGeneration is simulated and explained as a
+<p>In summary, the consensus protocol of <strong>TomoChain</strong> can be formalized in Algorithm ValidatorGeneration. The Algorithm ValidatorGeneration is simulated and explained as a
 process shown in Fig. <a href="#fig:EpochProcess">EpochProcess</a>.</p>
 <p><img alt="image" id="fig:EpochProcess" src="../figures/Figure_Epoch.jpg" /></p>
 <h2 id="Sec:SecurityAnalysis">Security Analysis<a class="headerlink" href="#Sec:SecurityAnalysis" title="Permanent link">&para;</a></h2>
@@ -1571,7 +1578,7 @@ masternode, the optimal strategy is to validate every chain/fork, so
 that the masternode gets their rewards no matter which fork wins. On the
 other hand, for attackers/malicious masternodes, they can easily create
 a fork for double spending.</p>
-<p>Let’s look back how <strong>Tomochain</strong> handles these two problems. As a reminder, <strong>Tomochain</strong> maintains
+<p>Let’s look back how <strong>TomoChain</strong> handles these two problems. As a reminder, <strong>TomoChain</strong> maintains
 a certain order of masternodes in creating and sealing blocks, in each
 epoch. For the first issue, random/arbitrary forks are hardly happened
 because the order of block creation masternodes is pre-determined for
@@ -1580,7 +1587,7 @@ second issue because even one malicious masternode creates two blocks at
 his turn, only one block then can be validated by the second randomly
 selected masternode.</p>
 <h2 class="unnumbered" id="long-range-attack">Long-range attack<a class="headerlink" href="#long-range-attack" title="Permanent link">&para;</a></h2>
-<p>In <strong>Tomochain</strong>, block is valid only if it collects double validation and finalized
+<p>In <strong>TomoChain</strong>, block is valid only if it collects double validation and finalized
 once <script type="math/tex">\frac{3}{4}</script> of masternodes verify. Therefore, as long as the
 number of attackers or malicious nodes and/or fail-stop nodes is less
 equal than <script type="math/tex">\frac{1}{4}</script> the number of masternodes, the number of
@@ -1589,7 +1596,7 @@ of masternodes, which makes the block finalized. Thus, there is no
 chance for one malicious masternode to create longer valid chain because
 other masternodes will refuse it.</p>
 <h3 class="unnumbered" id="censorship-attack">Censorship Attack<a class="headerlink" href="#censorship-attack" title="Permanent link">&para;</a></h3>
-<p>If there are more than <script type="math/tex">\frac{3}{4}</script> malicious masternodes in <strong>Tomochain</strong>,
+<p>If there are more than <script type="math/tex">\frac{3}{4}</script> malicious masternodes in <strong>TomoChain</strong>,
 censorship attack might happen. For example, these masternodes refuse
 valid blocks or simply become inactive. In this case, chain is stuck.</p>
 <p>In fact, masternodes are paid for their effort of correctly working so
@@ -1600,12 +1607,12 @@ more than<script type="math/tex">\frac{3}{4}</script> masternodes, attackers mus
 amount of TOMO and gain huge support from token holders. And because of
 this, the attackers do not have incentives to do any malicious action to
 harm the chain.</p>
-<p>However, in worst case, <strong>Tomochain</strong> has to do a soft fork in order to reduce number
+<p>However, in worst case, <strong>TomoChain</strong> has to do a soft fork in order to reduce number
 of masternodes to keep the chain running and figure out slasher
 mechanisms for those malicious masternodes.</p>
 <h3 class="unnumbered" id="relay-attack">Relay Attack<a class="headerlink" href="#relay-attack" title="Permanent link">&para;</a></h3>
-<p><strong>Tomochain</strong> supports <a href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-155.md">EIP155</a>
-Transactions in <strong>Tomochain</strong> are included <script type="math/tex">CHAIN\_ID</script> specified for different public
+<p><strong>TomoChain</strong> supports <a href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-155.md">EIP155</a>
+Transactions in <strong>TomoChain</strong> are included <script type="math/tex">CHAIN\_ID</script> specified for different public
 chains. Table <script type="math/tex; mode=display">table:chainid</script> shows recognized <script type="math/tex">CHAIN\_ID</script>s.</p>
 <table>
 <thead>
@@ -1683,7 +1690,7 @@ provide safety because it has a settlement finality.</p>
 and make valid transactions onto the blockchain (see <a href="#Safety">here</a>. An occurrence
 of a liveness fault is when transaction omission, information
 withholding, or message reordering, among a number of violations are
-observed. This type of fault is unlikely to happen in <strong>Tomochain</strong> because the block
+observed. This type of fault is unlikely to happen in <strong>TomoChain</strong> because the block
 creation masternodes list is ordered in a pre-determined way for each
 epoch, thus if even an attacking masternode omits some transactions, the
 latter will be processed and validated by the next honest masternode in
@@ -1696,10 +1703,10 @@ fail-stop, the network still works correctly as long as the number of
 failing and/or attacked nodes is less than 1/4 of the number of
 masternodes.</p>
 <h3 class="unnumbered" id="spam-attack">Spam Attack<a class="headerlink" href="#spam-attack" title="Permanent link">&para;</a></h3>
-<p><strong>Tomochain</strong> keeps the same transaction fee mechanism as Ethereum which is indicated
-via gasPrice. However, <strong>Tomochain</strong> supports minimum transaction fee (at 1 wei),
+<p><strong>TomoChain</strong> keeps the same transaction fee mechanism as Ethereum which is indicated
+via gasPrice. However, <strong>TomoChain</strong> supports minimum transaction fee (at 1 wei),
 which somehow enables spamming that attacker tries to broadcast a huge
-amount of low fee transactions to the system. However, <strong>Tomochain</strong> masternodes
+amount of low fee transactions to the system. However, <strong>TomoChain</strong> masternodes
 always sort transactions and pick up only high fee transactions into the
 proposing block. Thus, spammers have little chance to harm the system.</p>
 <h2 id="Sec:relatedwork">Related work<a class="headerlink" href="#Sec:relatedwork" title="Permanent link">&para;</a></h2>
@@ -1726,9 +1733,9 @@ here in the context of stake rather than computational
 power <a href="#Cardano2017">Cardano</a>. The Ethereum design <a href="#Casper">Casper</a>, published by
 Buterin &amp; Griffith, provides as its initial version a PoW/PoS hybrid
 consensus protocol, which might eventually switch to a pure PoS system.
-As in <strong>Tomochain</strong>, Ethereum Casper requires that <em>validators</em> (term similar to
+As in <strong>TomoChain</strong>, Ethereum Casper requires that <em>validators</em> (term similar to
 block creators) have to deposit an amount. In fact, some concepts used
-in <strong>Tomochain</strong> such as checkpoint blocks are borrowed from Casper. Our (PoSV)
+in <strong>TomoChain</strong> such as checkpoint blocks are borrowed from Casper. Our (PoSV)
 consensus protocol proposed in this paper can be seen as a hybrid model.
 In particular, first, we apply with voting and <strong>Double Validation</strong> to
 create, verify and vote for blocks smoothly and efficiently. Whenever
@@ -1738,34 +1745,34 @@ branches. This hybrid approach not only increases the
 performance and security of blockchain, but also reduces the fork
 situation in an efficient and practical manner.</p>
 <p>Recently, there are several consensus protocol research works that are
-closely related to <strong>Tomochain</strong> such as <a href="#EOS">EOS</a> and Ouroboros of
+closely related to <strong>TomoChain</strong> such as <a href="#EOS">EOS</a> and Ouroboros of
 <a href="#Cardano2017">Cardano</a>. The mechanism of <em>voting</em> for masternodes for
 reaching consensus is utilized by <a href="#bitshare">Bitshares</a> and <a href="#EOS">EOS</a>,
 whose consensus protocol is termed <em>Delegated Proof-of-Stake</em> (DPoS).
-DPoS is similar to the Proof-of-Stake Voting consensus of <strong>Tomochain</strong> in the sense
+DPoS is similar to the Proof-of-Stake Voting consensus of <strong>TomoChain</strong> in the sense
 that masternodes (block creators or <em>witnesses</em> in DPoS) are elected
-through a voting system. However, <strong>Tomochain</strong> requires that masternodes need to
+through a voting system. However, <strong>TomoChain</strong> requires that masternodes need to
 deposit a required minimum amount of TOMO to become a masternode
 candidate, which puts more pressure on the masternodes to work honestly.
-Furthermore, the <strong>Double Validation</strong> mechanism of <strong>Tomochain</strong> lowers the
+Furthermore, the <strong>Double Validation</strong> mechanism of <strong>TomoChain</strong> lowers the
 probability of handshaking attacks and having invalid blocks, as
 previously analyzed. EOS also has a maximum of 21 block producers for
-each epoch, which is <em>less decentralized</em> than <strong>Tomochain</strong> with a maximum of 99
-masternodes elected.</p>
+each epoch, which is <em>less decentralized</em> than <strong>TomoChain</strong> with a maximum of 150
+masternodes elected (and this number of masternodes can be changed following the decentralized governance through voting).</p>
 <p>The research-backed <a href="#Cardano2017">Cardano</a> blockchain solution, namely
 Ouroboros, with the ADA coin, which is purely based on Proof-of-Stake,
 promisingly claims to provide rigorous security guarantees. Similarly to
-<strong>Tomochain</strong>, Ouroboros has a set of block producers for each epoch for creating
+<strong>TomoChain</strong>, Ouroboros has a set of block producers for each epoch for creating
 blocks and each block producer candidate needs to deposit a minimum
 amount of stake (an amount of ADA). However, note that, Ouroboros only
-provides <strong>Single Validation</strong>, while <strong>Double Validation</strong> of <strong>Tomochain</strong> provides
+provides <strong>Single Validation</strong>, while <strong>Double Validation</strong> of <strong>TomoChain</strong> provides
 several advantages over Single Validation, as previously analyzed. In
 Ouroboros, the order of block producers, selected among stakers, is
-based on a biased randomization while the Tomochain’s randomization for block
+based on a biased randomization while the <strong>TomoChain</strong>’s randomization for block
 verifiers is potentially uniform and based on smart contracts.
-Furthermore, the use of voting as in Tomochain and DPoS enables a more incentive
+Furthermore, the use of voting as in <strong>TomoChain</strong> and DPoS enables a more incentive
 equality between stakers: In Ouroboros, stakers with very little stake
-have a very small probability of becoming block creators, while, in Tomochain,
+have a very small probability of becoming block creators, while, in <strong>TomoChain</strong>,
 these stakers can choose an optimal strategy to vote for potential
 masternodes to get incentives.</p>
 <h2 id="Sec:Conclusion">Conclusion and perspectives<a class="headerlink" href="#Sec:Conclusion" title="Permanent link">&para;</a></h2>
@@ -1779,7 +1786,7 @@ distribution function is uniform eventually.</p>
 <h2 class="unnumbered" id="perspectives">Perspectives<a class="headerlink" href="#perspectives" title="Permanent link">&para;</a></h2>
 <ul>
 <li>
-<p><strong>Future work</strong> The <strong>Tomochain</strong> team is currently working on the implementation
+<p><strong>Future work</strong> The <strong>TomoChain</strong> team is currently working on the implementation
     of the Proof-of-Stake Voting, which will be released on schedule as
     stated in our roadmap. Furthermore, in parallel with our novel
     consensus protocol, we will investigate the Sharding mechanism in
